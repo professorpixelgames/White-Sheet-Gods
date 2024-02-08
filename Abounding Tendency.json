@@ -2538,6 +2538,26 @@
         "name": "new\\tachinha",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "18506_1464787026.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "18506_1464787026.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "enemy_shot.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "enemy_shot.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2775,7 +2795,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.20069741314549924,
+        "zoomFactor": 0.4448515998886694,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2818,6 +2838,9 @@
             },
             {
               "name": "ChefeEspada"
+            },
+            {
+              "name": "ChefeArmaCabeca"
             }
           ]
         }
@@ -3113,7 +3136,7 @@
           "name": "AlvoChefeArma2",
           "persistentUuid": "464ac4a6-fb03-4358-b51f-7d14d442fc59",
           "width": 0,
-          "x": 2016,
+          "x": 2080,
           "y": 64,
           "zOrder": 15,
           "numberProperties": [],
@@ -3128,8 +3151,8 @@
           "name": "AlvoChefeArma3",
           "persistentUuid": "9204e585-a3e4-408c-831d-2d4ff92db871",
           "width": 0,
-          "x": 2016,
-          "y": 1216,
+          "x": 2080,
+          "y": 1280,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -3144,7 +3167,7 @@
           "persistentUuid": "9861e72a-5dd8-4b56-bf79-96bf408004d7",
           "width": 0,
           "x": 96,
-          "y": 1216,
+          "y": 1280,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -3162,36 +3185,6 @@
           "x": -1472,
           "y": -736,
           "zOrder": -20,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "ChefeArmaRoda",
-          "persistentUuid": "ae1856db-16ef-4c2a-89a8-69f156aac9ec",
-          "width": 0,
-          "x": 128,
-          "y": 96,
-          "zOrder": 18,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "ChefeArmaCabeca",
-          "persistentUuid": "f66e232e-a327-42cf-b782-a9690a2bbc1e",
-          "width": 0,
-          "x": 992,
-          "y": 864,
-          "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4276,6 +4269,12 @@
               "name": "BallDamange",
               "type": "number",
               "value": 0
+            },
+            {
+              "folded": true,
+              "name": "colidiuParede",
+              "type": "boolean",
+              "value": false
             }
           ],
           "effects": [],
@@ -5195,14 +5194,14 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 32,
+                        "y": 32
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 32,
+                        "y": 32
                       },
                       "customCollisionMask": [
                         [
@@ -5479,14 +5478,14 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 32,
+                        "y": 32
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 32,
+                        "y": 32
                       },
                       "customCollisionMask": [
                         [
@@ -5540,14 +5539,14 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 32,
+                        "y": 32
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 32,
+                        "y": 32
                       },
                       "customCollisionMask": [
                         [
@@ -5601,14 +5600,14 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 32,
+                        "y": 32
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 32,
+                        "y": 32
                       },
                       "customCollisionMask": [
                         [
@@ -6394,7 +6393,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Cenário",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6454,6 +6452,15 @@
                   "parameters": [
                     "",
                     "sfx\\estilete.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "enemy_shot.mp3"
                   ]
                 }
               ]
@@ -6902,7 +6909,6 @@
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -6918,6 +6924,92 @@
               "actions": [],
               "events": [
                 {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Jogador",
+                        "IconeArma",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "BossesIcons",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "ChefeArmaRoda",
+                        "1024",
+                        "64",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "ChefeArmaCabeca",
+                        "ChefeArmaCabeca",
+                        "ChefeArmaRoda.PointX(\"Juncao\")",
+                        "ChefeArmaRoda.PointY(\"Juncao\")",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetSceneVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "chefeCriado",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "CurrentLifeBoss",
+                        "=",
+                        "ChefeArmaCabeca.life"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "disabled": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -9062,7 +9154,8 @@
                   "type": "BuiltinCommonInstructions::Group",
                   "events": [
                     {
-                      "type": "BuiltinCommonInstructions::Standard",
+                      "type": "BuiltinCommonInstructions::ForEach",
+                      "object": "TiroInimigo",
                       "conditions": [
                         {
                           "type": {
@@ -9075,9 +9168,31 @@
                             "",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "TiroInimigo",
+                            "colidiuParede",
+                            "False"
+                          ]
                         }
                       ],
                       "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "enemy_shot.mp3",
+                            "",
+                            "",
+                            "RandomFloatInRange(0.9, 1.1)"
+                          ]
+                        },
                         {
                           "type": {
                             "value": "Arreter"
@@ -9086,6 +9201,34 @@
                             "TiroInimigo"
                           ]
                         },
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "TiroInimigo",
+                            "colidiuParede",
+                            "True"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::ForEach",
+                      "object": "TiroInimigo",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "TiroInimigo",
+                            "colidiuParede",
+                            "True"
+                          ]
+                        }
+                      ],
+                      "actions": [
                         {
                           "type": {
                             "value": "Wait"
@@ -9748,6 +9891,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Ataque Novo",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
