@@ -2598,6 +2598,838 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite58.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite28",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Gas.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gas.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/PixiJS/04556cffa8fa75a9515382f3ad3d092361a7a339c612344926d372f906e3e7ed_Gas.png",
+          "name": "Gas.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "00.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "00.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/00.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "00",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/002.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "002",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/003.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "003",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/004.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "004",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/005.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "005",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/006.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "006",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/007.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "007",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/008.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "008",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/009.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "009",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0010.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0010",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0011.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0011",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0012.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0012",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0013.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0013",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0014.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0014",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0015.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0015",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0016.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0016",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0017.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0017",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0018.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0018",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0019.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0019",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0020.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0020",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0021.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0021",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0022.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0022",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0023.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0023",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0024.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0024",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0025.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0025",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0026.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0026",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0027.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0027",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0028.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0028",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0029.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0029",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0030.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0030",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0031.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0031",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0032.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0032",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0033.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0033",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0034.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0034",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0035.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0035",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0036.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0036",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0037.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0037",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0038.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0038",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0039.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0039",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0040.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0040",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0041.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0041",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0042.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0042",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0043.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0043",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0044.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0044",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0045.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0045",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0046.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0046",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0047.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0047",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0048.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0048",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0049.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0049",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0050.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0050",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0051.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0051",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0052.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0052",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0053.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0053",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0054.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0054",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0055.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0055",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0056.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0056",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0057.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0057",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0058.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0058",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0059.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0059",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0060.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0060",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0061.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0061",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0062.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0062",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0063.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0063",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0064.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0064",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0065.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0065",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0066.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0066",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0067.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0067",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0068.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0068",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0069.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0069",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0070.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0070",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0071.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0071",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0072.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0072",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0073.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0073",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0074.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0074",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0075.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0075",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0076.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0076",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0077.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0077",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0078.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0078",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0079.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "0079",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0079.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\0079.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0078.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\0078.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0077.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\0077.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0076.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\0076.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0075.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\0075.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0074.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\0074.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0073.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\0073.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0072.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\0072.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0071.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\0071.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/0070.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\0070.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
