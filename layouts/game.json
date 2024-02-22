@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.2616774116992184,
+    "zoomFactor": 0.2705012603962586,
     "windowMask": false
   },
   "objectsGroups": [
@@ -26,13 +26,13 @@
       "name": "Equipamentos",
       "objects": [
         {
-          "name": "EquipamentoEspada"
+          "name": "Arma_Estilete"
         },
         {
-          "name": "EquipamentoArma"
+          "name": "Arma_Grampeador"
         },
         {
-          "name": "EquipamentoEscudo"
+          "name": "Arma_Borracha"
         }
       ]
     },
@@ -40,13 +40,13 @@
       "name": "BossesIcons",
       "objects": [
         {
-          "name": "IconeArma"
+          "name": "Icone_Chefe_Arma"
         },
         {
-          "name": "IconeEscudo"
+          "name": "Icone_Chefe_Escudo"
         },
         {
-          "name": "IconeEspada"
+          "name": "Icone_Chefe_Espada"
         }
       ]
     },
@@ -54,16 +54,16 @@
       "name": "Bosses",
       "objects": [
         {
-          "name": "ChefeArma"
+          "name": "Antigo_Chefe_Arma"
         },
         {
-          "name": "ChefeEscudo"
+          "name": "Chefe_Escudo"
         },
         {
           "name": "ChefeEspada"
         },
         {
-          "name": "ChefeArmaCabeca"
+          "name": "Chefe_Arma_Cabeca"
         }
       ]
     }
@@ -234,7 +234,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "EquipamentoArma",
+      "name": "Arma_Grampeador",
       "persistentUuid": "bae8432d-ed00-4176-8ebe-5e264311f089",
       "width": 0,
       "x": 736,
@@ -249,7 +249,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "EquipamentoEspada",
+      "name": "Arma_Estilete",
       "persistentUuid": "19568048-b9a9-4f9e-b162-c7049e652e2c",
       "width": 0,
       "x": 1376,
@@ -264,7 +264,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "IconeEspada",
+      "name": "Icone_Chefe_Espada",
       "persistentUuid": "3a47be72-cbfa-4890-a62a-a45990f7f394",
       "width": 0,
       "x": 1440,
@@ -295,7 +295,7 @@
       "customSize": false,
       "height": 0,
       "layer": "Transition",
-      "name": "Cover",
+      "name": "CoberturaTransicao",
       "persistentUuid": "d5d2de3c-98d3-496f-9f4c-ffa4f4144755",
       "width": 0,
       "x": 0,
@@ -311,7 +311,7 @@
       "depth": 1,
       "height": 1344,
       "layer": "",
-      "name": "Chao",
+      "name": "ChaoArena",
       "persistentUuid": "91cdf2e1-6461-4853-a5de-022d64532775",
       "width": 2112,
       "x": 32,
@@ -326,7 +326,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "AlvoChefeArma",
+      "name": "Marcador_Chefe_Arma1",
       "persistentUuid": "2a26ab52-d968-488a-8859-d7692b5f8b30",
       "width": 0,
       "x": 96,
@@ -341,7 +341,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "AlvoChefeArma2",
+      "name": "Marcador_Chefe_Arma2",
       "persistentUuid": "464ac4a6-fb03-4358-b51f-7d14d442fc59",
       "width": 0,
       "x": 2080,
@@ -356,7 +356,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "AlvoChefeArma3",
+      "name": "Marcador_Chefe_Arma3",
       "persistentUuid": "9204e585-a3e4-408c-831d-2d4ff92db871",
       "width": 0,
       "x": 2080,
@@ -371,7 +371,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "AlvoChefeArma4",
+      "name": "Marcador_Chefe_Arma4",
       "persistentUuid": "9861e72a-5dd8-4b56-bf79-96bf408004d7",
       "width": 0,
       "x": 96,
@@ -387,7 +387,7 @@
       "depth": 5,
       "height": 2800,
       "layer": "",
-      "name": "Background",
+      "name": "FundoCenario",
       "persistentUuid": "c7590fb5-7d48-4f40-94c9-e4e4de0aa0b9",
       "width": 4980,
       "x": -1472,
@@ -402,7 +402,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "IconeArma",
+      "name": "Icone_Chefe_Arma",
       "persistentUuid": "9859f019-7f87-4eeb-816a-a2e0eb79a58b",
       "width": 0,
       "x": 800,
@@ -417,7 +417,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "IconeEscudo",
+      "name": "Icone_Chefe_Escudo",
       "persistentUuid": "bd066cd4-ed94-4e8b-99a4-abd6b349af54",
       "width": 0,
       "x": 1120,
@@ -432,7 +432,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "EquipamentoEscudo",
+      "name": "Arma_Borracha",
       "persistentUuid": "22a8dbea-14e8-4f4f-ad88-6bc3c2c45ad5",
       "width": 0,
       "x": 1053,
@@ -454,22 +454,6 @@
       "x": 256,
       "y": 448,
       "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 128,
-      "layer": "",
-      "name": "SlowArea",
-      "persistentUuid": "590d562c-2610-4614-bd1b-41dca093f8ca",
-      "width": 128,
-      "x": 1088,
-      "y": 1152,
-      "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -627,7 +611,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite6",
+                  "image": "jogador_esquerda",
                   "points": [
                     {
                       "name": "PointBullet",
@@ -682,7 +666,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\NewSprite7",
+                  "image": "jogador_direita",
                   "points": [
                     {
                       "name": "PointBullet",
@@ -732,7 +716,7 @@
       "assetStoreId": "",
       "height": 64,
       "name": "ParedeArena",
-      "texture": "New image2",
+      "texture": "parede-arena",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 64,
       "variables": [],
@@ -742,7 +726,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "EquipamentoArma",
+      "name": "Arma_Grampeador",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -785,7 +769,7 @@
       ],
       "animations": [
         {
-          "name": "default",
+          "name": "Default",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -795,7 +779,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\new_grampeador.png",
+                  "image": "arma_grampeador",
                   "points": [
                     {
                       "name": "Cano",
@@ -844,7 +828,7 @@
     {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
-      "name": "EquipamentoEscudo",
+      "name": "Arma_Borracha",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -878,7 +862,7 @@
       ],
       "animations": [
         {
-          "name": "new\\borracha",
+          "name": "Default",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -888,7 +872,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "new\\borracha6",
+                  "image": "arma_borracha",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -931,7 +915,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "EquipamentoEspada",
+      "name": "Arma_Estilete",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -957,7 +941,7 @@
       ],
       "animations": [
         {
-          "name": "idle",
+          "name": "Idle",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -967,7 +951,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "idle",
+                  "image": "arma_estilete_parado",
                   "points": [
                     {
                       "name": "Ponta",
@@ -1012,7 +996,7 @@
           ]
         },
         {
-          "name": "attack",
+          "name": "Attack",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -1022,7 +1006,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "attack27",
+                  "image": "arma_estilete_ataque (5)",
                   "points": [
                     {
                       "name": "Ponta",
@@ -1064,7 +1048,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "attack22",
+                  "image": "arma_estilete_ataque (1)",
                   "points": [
                     {
                       "name": "Ponta",
@@ -1106,7 +1090,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "attack28",
+                  "image": "arma_estilete_ataque (6)",
                   "points": [
                     {
                       "name": "Ponta",
@@ -1148,7 +1132,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "attack23",
+                  "image": "arma_estilete_ataque (2)",
                   "points": [
                     {
                       "name": "Ponta",
@@ -1190,7 +1174,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "attack24",
+                  "image": "arma_estilete_ataque (3)",
                   "points": [
                     {
                       "name": "Ponta",
@@ -1232,7 +1216,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "attack29",
+                  "image": "arma_estilete_ataque (7)",
                   "points": [
                     {
                       "name": "Ponta",
@@ -1274,7 +1258,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "attack25",
+                  "image": "arma_estilete_ataque (4)",
                   "points": [
                     {
                       "name": "Ponta",
@@ -1316,7 +1300,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "attack30",
+                  "image": "arma_estilete_ataque (8)",
                   "points": [
                     {
                       "name": "Ponta",
@@ -1365,7 +1349,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "TiroJogador",
+      "name": "Ataque_Arma_Grampeador",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -1380,7 +1364,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "new\\imagem_grampo",
+          "name": "Default",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -1390,7 +1374,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "new\\imagem_grampo7",
+                  "image": "ataque_arma_grampeador",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1433,7 +1417,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "ChefeArma",
+      "name": "Antigo_Chefe_Arma",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -1502,7 +1486,7 @@
       ],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "Default",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -1512,7 +1496,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite8",
+                  "image": "antigo_chefe_arma",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1555,7 +1539,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "TiroInimigo",
+      "name": "Chefe_Arma_Ataque",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -1602,7 +1586,7 @@
       ],
       "animations": [
         {
-          "name": "new\\tachinha",
+          "name": "Default",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -1612,56 +1596,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "new\\tachinha",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 4,
-                        "y": 16
-                      },
-                      {
-                        "x": 62,
-                        "y": 16
-                      },
-                      {
-                        "x": 62,
-                        "y": 46
-                      },
-                      {
-                        "x": 4,
-                        "y": 46
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "NewSprite",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite9",
+                  "image": "chefe_arma_ataque",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1703,7 +1638,7 @@
     },
     {
       "assetStoreId": "6a16d25e5a4b7e16b72187c4cab1164e2e8fba46d78b9af0132f10301b4224e9",
-      "name": "BarraInimigo",
+      "name": "Barra_Chefe",
       "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
       "variables": [],
       "effects": [],
@@ -1725,7 +1660,7 @@
           "height": 15,
           "leftMargin": 11,
           "rightMargin": 11,
-          "texture": "Copper Bar Border.png",
+          "texture": "barra_borda_chefe",
           "tiled": true,
           "topMargin": 6,
           "width": 96
@@ -1735,7 +1670,7 @@
           "height": 8,
           "leftMargin": 0,
           "rightMargin": 0,
-          "texture": "Framed Pixel Red Fill Bar.png",
+          "texture": "barra_preenchimento_chefe",
           "tiled": false,
           "topMargin": 0,
           "width": 32
@@ -1745,7 +1680,7 @@
           "height": 8,
           "leftMargin": 4,
           "rightMargin": 4,
-          "texture": "Framed Pixel Red Fill Bar.png",
+          "texture": "barra_preenchimento_chefe",
           "tiled": false,
           "topMargin": 3,
           "width": 32
@@ -1756,7 +1691,7 @@
           "smoothed": true,
           "underlined": false,
           "string": "16 / 16",
-          "font": "",
+          "font": "barra_borda_chefe",
           "textAlignment": "center",
           "characterSize": 8,
           "color": {
@@ -1779,7 +1714,7 @@
             "smoothed": true,
             "underlined": false,
             "text": "16 / 16",
-            "font": "",
+            "font": "barra_borda_chefe",
             "textAlignment": "center",
             "characterSize": 8,
             "color": "255;255;255"
@@ -1790,7 +1725,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "IconeArma",
+      "name": "Icone_Chefe_Arma",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1798,7 +1733,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "BossGun",
+          "name": "Default",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -1808,7 +1743,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "BossGun",
+                  "image": "icone_chefe_arma",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1851,7 +1786,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "IconeEscudo",
+      "name": "Icone_Chefe_Escudo",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1859,7 +1794,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "BossShield",
+          "name": "Default",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -1869,7 +1804,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "BossShield",
+                  "image": "icone_chefe_escudo",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1912,7 +1847,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "IconeEspada",
+      "name": "Icone_Chefe_Espada",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1920,7 +1855,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "BossSword",
+          "name": "Default",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -1930,7 +1865,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "BossSword",
+                  "image": "icone_chefe_espada",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1973,7 +1908,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "ChefeEscudo",
+      "name": "Chefe_Escudo",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -2038,7 +1973,7 @@
       ],
       "animations": [
         {
-          "name": "shieldboss-idle",
+          "name": "Idle",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -2048,7 +1983,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "shieldboss-idle",
+                  "image": "chefe_escudo (1)",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2084,7 +2019,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "shieldboss-idle2",
+                  "image": "chefe_escudo (2)",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2120,7 +2055,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "shieldboss-idle3",
+                  "image": "chefe_escudo (3)",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2156,7 +2091,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "shieldboss-idle4",
+                  "image": "chefe_escudo (4)",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2168,55 +2103,6 @@
                     "name": "centre",
                     "x": 0,
                     "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 30,
-                        "y": 0
-                      },
-                      {
-                        "x": 98,
-                        "y": 0
-                      },
-                      {
-                        "x": 98,
-                        "y": 124
-                      },
-                      {
-                        "x": 30,
-                        "y": 124
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "attack",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "attack31",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 64,
-                    "y": 64
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 64,
-                    "y": 64
                   },
                   "customCollisionMask": [
                     [
@@ -2270,7 +2156,7 @@
       ],
       "behaviors": [],
       "string": "0",
-      "font": "",
+      "font": "barra_borda_chefe",
       "textAlignment": "center",
       "characterSize": 50,
       "color": {
@@ -2293,7 +2179,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "0",
-        "font": "",
+        "font": "barra_borda_chefe",
         "textAlignment": "center",
         "characterSize": 50,
         "color": "255;0;0"
@@ -2302,7 +2188,7 @@
     {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
-      "name": "AreaAtaqueInimigo",
+      "name": "Ataque_Chefe_Espada",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2310,7 +2196,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "Sword_area",
+          "name": "AreaAtaque",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -2319,7 +2205,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sword.png",
+                  "image": "ataque-area_chefe_espada",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2339,7 +2225,7 @@
           ]
         },
         {
-          "name": "sword_attack",
+          "name": "AtaqueCorte",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -2348,7 +2234,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets_assets_NewSprite17.png",
+                  "image": "ataque-corte_chefe_espada (1)",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2365,7 +2251,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets_assets_NewSprite18.png",
+                  "image": "ataque-corte_chefe_espada (2)",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2382,7 +2268,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets_assets_NewSprite19.png",
+                  "image": "ataque-corte_chefe_espada (3)",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2399,7 +2285,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets_assets_NewSprite20.png",
+                  "image": "ataque-corte_chefe_espada (4)",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2416,7 +2302,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets_assets_NewSprite21.png",
+                  "image": "ataque-corte_chefe_espada (5)",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2433,7 +2319,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets_assets_NewSprite22.png",
+                  "image": "ataque-corte_chefe_espada (6)",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2530,7 +2416,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "BossSword2",
+                  "image": "chefe_espada",
                   "points": [
                     {
                       "name": "Left",
@@ -2614,7 +2500,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "AlvoChefeEspada",
+      "name": "Alvo_Chefe_Espada",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2622,7 +2508,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "PointAttackBoss",
+          "name": "Default",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -2632,7 +2518,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "PointAttackBoss2",
+                  "image": "alvo_chefe_espada",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2675,7 +2561,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "AlvoChefeArma",
+      "name": "Marcador_Chefe_Arma1",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2683,7 +2569,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "Default",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -2693,7 +2579,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite17",
+                  "image": "marcador_chefe_arma",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2736,7 +2622,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "slash",
+      "name": "Ataque_Arma_Estilete",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2744,7 +2630,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "Default",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -2754,7 +2640,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite23",
+                  "image": "ataque_arma_estilete (1)",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2790,7 +2676,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite24",
+                  "image": "ataque_arma_estilete (2)",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2826,7 +2712,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite27",
+                  "image": "ataque_arma_estilete (3)",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2869,7 +2755,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Pedra",
+      "name": "Defesa_Chefe_Espada",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -2894,7 +2780,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "new\\imagem_rocha.png",
+                  "image": "defesa_chefe_espada",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2937,8 +2823,8 @@
     {
       "assetStoreId": "",
       "height": 1080,
-      "name": "Cover",
-      "texture": "New image3",
+      "name": "CoberturaTransicao",
+      "texture": "cobertura-transicao",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 1920,
       "variables": [],
@@ -2948,8 +2834,8 @@
     {
       "assetStoreId": "",
       "height": 64,
-      "name": "Chao",
-      "texture": "New image7",
+      "name": "ChaoArena",
+      "texture": "chao-arena",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 64,
       "variables": [],
@@ -2959,7 +2845,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "AlvoChefeArma2",
+      "name": "Marcador_Chefe_Arma2",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2967,7 +2853,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "Default",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -2977,7 +2863,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite17",
+                  "image": "marcador_chefe_arma",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3020,7 +2906,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "AlvoChefeArma3",
+      "name": "Marcador_Chefe_Arma3",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3028,7 +2914,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "Default",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -3038,7 +2924,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite17",
+                  "image": "marcador_chefe_arma",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3081,7 +2967,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "AlvoChefeArma4",
+      "name": "Marcador_Chefe_Arma4",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3089,7 +2975,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "Default",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -3099,7 +2985,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite17",
+                  "image": "marcador_chefe_arma",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3142,7 +3028,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Background",
+      "name": "FundoCenario",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3150,7 +3036,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "Default",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -3159,7 +3045,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Norma2D on X Some space backgrounds for a pixel art pack that I2.png",
+                  "image": "fundo-cenario",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3202,7 +3088,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "ChefeArmaRoda",
+      "name": "Chefe_Arma_Base",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -3222,7 +3108,7 @@
       ],
       "animations": [
         {
-          "name": "wheel",
+          "name": "Default",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -3232,7 +3118,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "wheel2",
+                  "image": "chefe_arma_base",
                   "points": [
                     {
                       "name": "Juncao",
@@ -3281,7 +3167,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "ChefeArmaCabeca",
+      "name": "Chefe_Arma_Cabeca",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -3343,7 +3229,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\AttackBoss4.png",
+                  "image": "chefe_arma_cabeca_idle",
                   "points": [
                     {
                       "name": "Boca",
@@ -3398,7 +3284,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "AttackBoss",
+                  "image": "chefe_arma_cabeca_ataque (1)",
                   "points": [
                     {
                       "name": "Boca",
@@ -3440,7 +3326,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "AttackBoss2",
+                  "image": "chefe_arma_cabeca_ataque (2)",
                   "points": [
                     {
                       "name": "Boca",
@@ -3482,7 +3368,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "AttackBoss3",
+                  "image": "chefe_arma_cabeca_ataque (3)",
                   "points": [
                     {
                       "name": "Boca",
@@ -3524,7 +3410,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "AttackBoss4",
+                  "image": "chefe_arma_cabeca_ataque (4)",
                   "points": [
                     {
                       "name": "Boca",
@@ -3566,7 +3452,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "AttackBoss5",
+                  "image": "chefe_arma_cabeca_ataque (5)",
                   "points": [
                     {
                       "name": "Boca",
@@ -3608,7 +3494,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "AttackBoss6",
+                  "image": "chefe_arma_cabeca_ataque (6)",
                   "points": [
                     {
                       "name": "Boca",
@@ -3650,7 +3536,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "AttackBoss7",
+                  "image": "chefe_arma_cabeca_ataque (7)",
                   "points": [
                     {
                       "name": "Boca",
@@ -3692,7 +3578,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "AttackBoss8",
+                  "image": "chefe_arma_cabeca_ataque (8)",
                   "points": [
                     {
                       "name": "Boca",
@@ -3734,7 +3620,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "AttackBoss9",
+                  "image": "chefe_arma_cabeca_ataque (9)",
                   "points": [
                     {
                       "name": "Boca",
@@ -3810,7 +3696,7 @@
         }
       ],
       "string": "Placeholder",
-      "font": "",
+      "font": "barra_borda_chefe",
       "textAlignment": "center",
       "characterSize": 150,
       "color": {
@@ -3833,7 +3719,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Placeholder",
-        "font": "",
+        "font": "barra_borda_chefe",
         "textAlignment": "center",
         "characterSize": 150,
         "color": "248;231;28"
@@ -3842,7 +3728,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "SlowArea",
+      "name": "Chefe_Escudo_Ataque",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -3866,7 +3752,7 @@
       ],
       "animations": [
         {
-          "name": "_new\\boss-escudo5",
+          "name": "Default",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -3876,465 +3762,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "_new\\boss-escudo6",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 15,
-                        "y": 4
-                      },
-                      {
-                        "x": 49,
-                        "y": 4
-                      },
-                      {
-                        "x": 49,
-                        "y": 64
-                      },
-                      {
-                        "x": 15,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "00",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "0069",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 15,
-                        "y": 4
-                      },
-                      {
-                        "x": 49,
-                        "y": 4
-                      },
-                      {
-                        "x": 49,
-                        "y": 64
-                      },
-                      {
-                        "x": 15,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "0070",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 15,
-                        "y": 4
-                      },
-                      {
-                        "x": 49,
-                        "y": 4
-                      },
-                      {
-                        "x": 49,
-                        "y": 64
-                      },
-                      {
-                        "x": 15,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "0071",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 15,
-                        "y": 4
-                      },
-                      {
-                        "x": 49,
-                        "y": 4
-                      },
-                      {
-                        "x": 49,
-                        "y": 64
-                      },
-                      {
-                        "x": 15,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "0072",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 15,
-                        "y": 4
-                      },
-                      {
-                        "x": 49,
-                        "y": 4
-                      },
-                      {
-                        "x": 49,
-                        "y": 64
-                      },
-                      {
-                        "x": 15,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "0073",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 15,
-                        "y": 4
-                      },
-                      {
-                        "x": 49,
-                        "y": 4
-                      },
-                      {
-                        "x": 49,
-                        "y": 64
-                      },
-                      {
-                        "x": 15,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "0074",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 15,
-                        "y": 4
-                      },
-                      {
-                        "x": 49,
-                        "y": 4
-                      },
-                      {
-                        "x": 49,
-                        "y": 64
-                      },
-                      {
-                        "x": 15,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "0075",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 15,
-                        "y": 4
-                      },
-                      {
-                        "x": 49,
-                        "y": 4
-                      },
-                      {
-                        "x": 49,
-                        "y": 64
-                      },
-                      {
-                        "x": 15,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "0076",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 15,
-                        "y": 4
-                      },
-                      {
-                        "x": 49,
-                        "y": 4
-                      },
-                      {
-                        "x": 49,
-                        "y": 64
-                      },
-                      {
-                        "x": 15,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "0077",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 15,
-                        "y": 4
-                      },
-                      {
-                        "x": 49,
-                        "y": 4
-                      },
-                      {
-                        "x": 49,
-                        "y": 64
-                      },
-                      {
-                        "x": 15,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "0078",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 15,
-                        "y": 4
-                      },
-                      {
-                        "x": 49,
-                        "y": 4
-                      },
-                      {
-                        "x": 49,
-                        "y": 64
-                      },
-                      {
-                        "x": 15,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "0079",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 15,
-                        "y": 4
-                      },
-                      {
-                        "x": 49,
-                        "y": 4
-                      },
-                      {
-                        "x": 49,
-                        "y": 64
-                      },
-                      {
-                        "x": 15,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "NewSprite",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite28",
+                  "image": "chefe_escudo_ataque",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4399,7 +3827,7 @@
       ],
       "behaviors": [],
       "string": "0",
-      "font": "",
+      "font": "barra_borda_chefe",
       "textAlignment": "center",
       "characterSize": 50,
       "color": {
@@ -4422,7 +3850,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "0",
-        "font": "",
+        "font": "barra_borda_chefe",
         "textAlignment": "center",
         "characterSize": 50,
         "color": "255;0;0"
@@ -4433,42 +3861,45 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "folderName": "Cenário",
+        "folderName": "HUD",
         "children": [
           {
-            "objectName": "Background"
+            "objectName": "Barra_Chefe"
           },
           {
-            "objectName": "Chao"
-          },
-          {
-            "objectName": "Cover"
+            "objectName": "BossTitle"
           },
           {
             "objectName": "Debug_Life"
           },
           {
             "objectName": "Debug_Life2"
-          },
-          {
-            "objectName": "BarraInimigo"
-          },
-          {
-            "objectName": "ParedeArena"
           }
         ]
       },
       {
-        "folderName": "Icones",
+        "folderName": "Cenario",
         "children": [
           {
-            "objectName": "IconeEspada"
+            "objectName": "CoberturaTransicao"
           },
           {
-            "objectName": "IconeEscudo"
+            "objectName": "FundoCenario"
           },
           {
-            "objectName": "IconeArma"
+            "objectName": "ParedeArena"
+          },
+          {
+            "objectName": "ChaoArena"
+          },
+          {
+            "objectName": "Icone_Chefe_Espada"
+          },
+          {
+            "objectName": "Icone_Chefe_Escudo"
+          },
+          {
+            "objectName": "Icone_Chefe_Arma"
           }
         ]
       },
@@ -4479,19 +3910,19 @@
             "objectName": "Jogador"
           },
           {
-            "objectName": "TiroJogador"
+            "objectName": "Arma_Borracha"
           },
           {
-            "objectName": "EquipamentoEscudo"
+            "objectName": "Arma_Estilete"
           },
           {
-            "objectName": "EquipamentoEspada"
+            "objectName": "Arma_Grampeador"
           },
           {
-            "objectName": "slash"
+            "objectName": "Ataque_Arma_Grampeador"
           },
           {
-            "objectName": "EquipamentoArma"
+            "objectName": "Ataque_Arma_Estilete"
           }
         ]
       },
@@ -4499,51 +3930,48 @@
         "folderName": "Chefes",
         "children": [
           {
-            "objectName": "ChefeArmaRoda"
+            "objectName": "Chefe_Escudo_Ataque"
           },
           {
-            "objectName": "ChefeArmaCabeca"
+            "objectName": "Chefe_Arma_Base"
           },
           {
-            "objectName": "Pedra"
+            "objectName": "Chefe_Arma_Cabeca"
           },
           {
-            "objectName": "AlvoChefeEspada"
+            "objectName": "Defesa_Chefe_Espada"
           },
           {
-            "objectName": "TiroInimigo"
+            "objectName": "Alvo_Chefe_Espada"
           },
           {
-            "objectName": "AreaAtaqueInimigo"
+            "objectName": "Chefe_Arma_Ataque"
+          },
+          {
+            "objectName": "Ataque_Chefe_Espada"
           },
           {
             "objectName": "ChefeEspada"
           },
           {
-            "objectName": "ChefeEscudo"
+            "objectName": "Chefe_Escudo"
           },
           {
-            "objectName": "ChefeArma"
+            "objectName": "Antigo_Chefe_Arma"
           },
           {
-            "objectName": "AlvoChefeArma"
+            "objectName": "Marcador_Chefe_Arma1"
           },
           {
-            "objectName": "AlvoChefeArma2"
+            "objectName": "Marcador_Chefe_Arma2"
           },
           {
-            "objectName": "AlvoChefeArma3"
+            "objectName": "Marcador_Chefe_Arma3"
           },
           {
-            "objectName": "AlvoChefeArma4"
+            "objectName": "Marcador_Chefe_Arma4"
           }
         ]
-      },
-      {
-        "objectName": "BossTitle"
-      },
-      {
-        "objectName": "SlowArea"
       }
     ]
   },
@@ -4553,7 +3981,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Cenário",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4603,7 +4030,7 @@
               },
               "parameters": [
                 "",
-                "sfx\\grampeador.mp3"
+                "arma_grampeador_ataque.mp3"
               ]
             },
             {
@@ -4612,7 +4039,7 @@
               },
               "parameters": [
                 "",
-                "sfx\\estilete.mp3"
+                "arma_estilete_ataque.mp3"
               ]
             },
             {
@@ -4621,7 +4048,7 @@
               },
               "parameters": [
                 "",
-                "enemy_shot.mp3"
+                "chefe_arma_ataque_acerto-parede.mp3"
               ]
             },
             {
@@ -4630,7 +4057,7 @@
               },
               "parameters": [
                 "",
-                "shield_activation.wav"
+                "arma_borracha_defesa_ativando.wav"
               ]
             },
             {
@@ -4639,7 +4066,7 @@
               },
               "parameters": [
                 "",
-                "shield-block-shortsword-143939.mp3"
+                "arma_borracha_defesa_defendendo.mp3"
               ]
             }
           ]
@@ -4664,7 +4091,7 @@
               },
               "parameters": [
                 "Jogador",
-                "Pedra",
+                "Defesa_Chefe_Espada",
                 ""
               ]
             },
@@ -4673,7 +4100,7 @@
                 "value": "OpacityCapability::OpacityBehavior::SetValue"
               },
               "parameters": [
-                "Cover",
+                "CoberturaTransicao",
                 "Opacity",
                 "-",
                 "5"
@@ -4689,7 +4116,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "Pedra",
+                "Defesa_Chefe_Espada",
                 "ParedeArena",
                 "",
                 "",
@@ -4703,7 +4130,7 @@
                 "value": "Delete"
               },
               "parameters": [
-                "Pedra",
+                "Defesa_Chefe_Espada",
                 ""
               ]
             }
@@ -4739,7 +4166,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "AlvoChefeArma"
+                "Marcador_Chefe_Arma1"
               ]
             },
             {
@@ -4747,7 +4174,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "AlvoChefeArma2"
+                "Marcador_Chefe_Arma2"
               ]
             },
             {
@@ -4755,7 +4182,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "AlvoChefeArma3"
+                "Marcador_Chefe_Arma3"
               ]
             },
             {
@@ -4763,7 +4190,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "AlvoChefeArma4"
+                "Marcador_Chefe_Arma4"
               ]
             },
             {
@@ -4779,7 +4206,7 @@
                 "value": "OpacityCapability::OpacityBehavior::SetValue"
               },
               "parameters": [
-                "Chao",
+                "ChaoArena",
                 "Opacity",
                 "=",
                 "25"
@@ -4816,7 +4243,7 @@
                     "value": "ScalableCapability::ScalableBehavior::Value"
                   },
                   "parameters": [
-                    "EquipamentoArma",
+                    "Arma_Grampeador",
                     "Scale",
                     "<=",
                     "1"
@@ -4829,7 +4256,7 @@
                     "value": "Tween::TweenBehavior::AddObjectScaleTween3"
                   },
                   "parameters": [
-                    "EquipamentoArma",
+                    "Arma_Grampeador",
                     "Tween",
                     "\"scaleUp\"",
                     "1.1",
@@ -4849,7 +4276,7 @@
                     "value": "ScalableCapability::ScalableBehavior::Value"
                   },
                   "parameters": [
-                    "EquipamentoEscudo",
+                    "Arma_Borracha",
                     "Scale",
                     "<=",
                     "1"
@@ -4862,7 +4289,7 @@
                     "value": "Tween::TweenBehavior::AddObjectScaleTween3"
                   },
                   "parameters": [
-                    "EquipamentoEscudo",
+                    "Arma_Borracha",
                     "Tween",
                     "\"scaleUp\"",
                     "1.1",
@@ -4882,7 +4309,7 @@
                     "value": "ScalableCapability::ScalableBehavior::Value"
                   },
                   "parameters": [
-                    "EquipamentoEspada",
+                    "Arma_Estilete",
                     "Scale",
                     "<=",
                     "1"
@@ -4895,7 +4322,7 @@
                     "value": "Tween::TweenBehavior::AddObjectScaleTween3"
                   },
                   "parameters": [
-                    "EquipamentoEspada",
+                    "Arma_Estilete",
                     "Tween",
                     "\"scaleUp\"",
                     "1.1",
@@ -4915,7 +4342,7 @@
                     "value": "ScalableCapability::ScalableBehavior::Value"
                   },
                   "parameters": [
-                    "EquipamentoArma",
+                    "Arma_Grampeador",
                     "Scale",
                     ">=",
                     "1.1"
@@ -4928,7 +4355,7 @@
                     "value": "Tween::TweenBehavior::AddObjectScaleTween3"
                   },
                   "parameters": [
-                    "EquipamentoArma",
+                    "Arma_Grampeador",
                     "Tween",
                     "\"scaleUp\"",
                     "1",
@@ -4948,7 +4375,7 @@
                     "value": "ScalableCapability::ScalableBehavior::Value"
                   },
                   "parameters": [
-                    "EquipamentoEscudo",
+                    "Arma_Borracha",
                     "Scale",
                     ">=",
                     "1.1"
@@ -4961,7 +4388,7 @@
                     "value": "Tween::TweenBehavior::AddObjectScaleTween3"
                   },
                   "parameters": [
-                    "EquipamentoEscudo",
+                    "Arma_Borracha",
                     "Tween",
                     "\"scaleUp\"",
                     "1",
@@ -4981,7 +4408,7 @@
                     "value": "ScalableCapability::ScalableBehavior::Value"
                   },
                   "parameters": [
-                    "EquipamentoEspada",
+                    "Arma_Estilete",
                     "Scale",
                     ">=",
                     "1.1"
@@ -4994,7 +4421,7 @@
                     "value": "Tween::TweenBehavior::AddObjectScaleTween3"
                   },
                   "parameters": [
-                    "EquipamentoEspada",
+                    "Arma_Estilete",
                     "Tween",
                     "\"scaleUp\"",
                     "1",
@@ -5027,7 +4454,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "TiroInimigo",
+                    "Chefe_Arma_Ataque",
                     "ParedeArena",
                     "",
                     "",
@@ -5039,7 +4466,7 @@
                     "value": "Bounce::Bounce::BounceCount"
                   },
                   "parameters": [
-                    "TiroInimigo",
+                    "Chefe_Arma_Ataque",
                     "Bounce",
                     ">",
                     "1",
@@ -5053,7 +4480,7 @@
                     "value": "Recolorizer::SpriteRecolorizer::ResetColor"
                   },
                   "parameters": [
-                    "TiroInimigo",
+                    "Chefe_Arma_Ataque",
                     "SpriteRecolorizer",
                     ""
                   ]
@@ -5063,10 +4490,10 @@
                     "value": "ModVarObjet"
                   },
                   "parameters": [
-                    "TiroInimigo",
+                    "Chefe_Arma_Ataque",
                     "BallDamange",
                     "=",
-                    "ChefeArma.Force"
+                    "Antigo_Chefe_Arma.Force"
                   ]
                 }
               ]
@@ -5133,7 +4560,7 @@
                   },
                   "parameters": [
                     "Jogador",
-                    "IconeArma",
+                    "Icone_Chefe_Arma",
                     "",
                     "",
                     ""
@@ -5170,7 +4597,7 @@
                   },
                   "parameters": [
                     "",
-                    "ChefeArmaRoda",
+                    "Chefe_Arma_Base",
                     "1024",
                     "64",
                     ""
@@ -5182,9 +4609,9 @@
                   },
                   "parameters": [
                     "ChefeArmaCabeca",
-                    "ChefeArmaCabeca",
-                    "ChefeArmaRoda.PointX(\"Juncao\")",
-                    "ChefeArmaRoda.PointY(\"Juncao\")",
+                    "Chefe_Arma_Cabeca",
+                    "Chefe_Arma_Base.PointX(\"Juncao\")",
+                    "Chefe_Arma_Base.PointY(\"Juncao\")",
                     ""
                   ]
                 },
@@ -5204,7 +4631,7 @@
                   "parameters": [
                     "CurrentLifeBoss",
                     "=",
-                    "ChefeArmaCabeca.life"
+                    "Chefe_Arma_Cabeca.life"
                   ]
                 },
                 {
@@ -5233,7 +4660,7 @@
                   },
                   "parameters": [
                     "Jogador",
-                    "IconeArma",
+                    "Icone_Chefe_Arma",
                     "",
                     "",
                     ""
@@ -5270,7 +4697,7 @@
                   },
                   "parameters": [
                     "",
-                    "ChefeArma",
+                    "Antigo_Chefe_Arma",
                     "1024",
                     "64",
                     ""
@@ -5292,7 +4719,7 @@
                   "parameters": [
                     "CurrentLifeBoss",
                     "=",
-                    "ChefeArma.life"
+                    "Antigo_Chefe_Arma.life"
                   ]
                 }
               ]
@@ -5306,7 +4733,7 @@
                   },
                   "parameters": [
                     "Jogador",
-                    "IconeEscudo",
+                    "Icone_Chefe_Escudo",
                     "",
                     "",
                     ""
@@ -5396,7 +4823,7 @@
                       },
                       "parameters": [
                         "",
-                        "ChefeEscudo",
+                        "Chefe_Escudo",
                         "1024",
                         "64",
                         ""
@@ -5418,7 +4845,7 @@
                       "parameters": [
                         "CurrentLifeBoss",
                         "=",
-                        "ChefeEscudo.life"
+                        "Chefe_Escudo.life"
                       ]
                     }
                   ]
@@ -5434,7 +4861,7 @@
                   },
                   "parameters": [
                     "Jogador",
-                    "IconeEspada",
+                    "Icone_Chefe_Espada",
                     "",
                     "",
                     ""
@@ -5526,7 +4953,7 @@
               },
               "parameters": [
                 "",
-                "BarraInimigo",
+                "Barra_Chefe",
                 "135",
                 "1010",
                 "\"HUD\""
@@ -5537,7 +4964,7 @@
                 "value": "ResizableCapability::ResizableBehavior::SetWidth"
               },
               "parameters": [
-                "BarraInimigo",
+                "Barra_Chefe",
                 "Resizable",
                 "=",
                 "1680"
@@ -5548,7 +4975,7 @@
                 "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
               },
               "parameters": [
-                "BarraInimigo",
+                "Barra_Chefe",
                 "=",
                 "CurrentLifeBoss",
                 ""
@@ -5559,7 +4986,7 @@
                 "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
               },
               "parameters": [
-                "BarraInimigo",
+                "Barra_Chefe",
                 "=",
                 "CurrentLifeBoss",
                 ""
@@ -5586,7 +5013,7 @@
                 "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
               },
               "parameters": [
-                "BarraInimigo",
+                "Barra_Chefe",
                 "=",
                 "CurrentLifeBoss",
                 ""
@@ -5638,7 +5065,7 @@
                   },
                   "parameters": [
                     "Jogador",
-                    "SlowArea",
+                    "Chefe_Escudo_Ataque",
                     "",
                     "",
                     ""
@@ -5679,7 +5106,7 @@
                   },
                   "parameters": [
                     "Jogador",
-                    "SlowArea",
+                    "Chefe_Escudo_Ataque",
                     "",
                     "",
                     ""
@@ -5751,7 +5178,7 @@
                       },
                       "parameters": [
                         "Jogador",
-                        "EquipamentoArma",
+                        "Arma_Grampeador",
                         "",
                         "",
                         ""
@@ -5800,7 +5227,7 @@
                           },
                           "parameters": [
                             "",
-                            "EquipamentoArma",
+                            "Arma_Grampeador",
                             "Jogador.CenterX()",
                             "Jogador.CenterY()",
                             ""
@@ -5817,7 +5244,7 @@
                             "value": "Montre"
                           },
                           "parameters": [
-                            "IconeEscudo",
+                            "Icone_Chefe_Escudo",
                             ""
                           ]
                         },
@@ -5826,7 +5253,7 @@
                             "value": "Montre"
                           },
                           "parameters": [
-                            "IconeEspada",
+                            "Icone_Chefe_Espada",
                             ""
                           ]
                         },
@@ -5835,7 +5262,7 @@
                             "value": "Delete"
                           },
                           "parameters": [
-                            "IconeArma",
+                            "Icone_Chefe_Arma",
                             ""
                           ]
                         }
@@ -5852,7 +5279,7 @@
                       },
                       "parameters": [
                         "Jogador",
-                        "EquipamentoEspada",
+                        "Arma_Estilete",
                         "",
                         "",
                         ""
@@ -5901,7 +5328,7 @@
                           },
                           "parameters": [
                             "",
-                            "EquipamentoEspada",
+                            "Arma_Estilete",
                             "Jogador.CenterX()",
                             "Jogador.CenterY()",
                             ""
@@ -5918,7 +5345,7 @@
                             "value": "Montre"
                           },
                           "parameters": [
-                            "IconeArma",
+                            "Icone_Chefe_Arma",
                             ""
                           ]
                         },
@@ -5927,7 +5354,7 @@
                             "value": "Montre"
                           },
                           "parameters": [
-                            "IconeEscudo",
+                            "Icone_Chefe_Escudo",
                             ""
                           ]
                         },
@@ -5936,7 +5363,7 @@
                             "value": "Delete"
                           },
                           "parameters": [
-                            "IconeEspada",
+                            "Icone_Chefe_Espada",
                             ""
                           ]
                         }
@@ -5953,7 +5380,7 @@
                       },
                       "parameters": [
                         "Jogador",
-                        "EquipamentoEscudo",
+                        "Arma_Borracha",
                         "",
                         "",
                         ""
@@ -6002,7 +5429,7 @@
                           },
                           "parameters": [
                             "",
-                            "EquipamentoEscudo",
+                            "Arma_Borracha",
                             "Jogador.CenterX()",
                             "Jogador.CenterY()",
                             ""
@@ -6013,7 +5440,7 @@
                             "value": "EffectCapability::EffectBehavior::EnableEffect"
                           },
                           "parameters": [
-                            "EquipamentoEscudo",
+                            "Arma_Borracha",
                             "Effect",
                             "\"Effect\"",
                             ""
@@ -6030,7 +5457,7 @@
                             "value": "Montre"
                           },
                           "parameters": [
-                            "IconeArma",
+                            "Icone_Chefe_Arma",
                             ""
                           ]
                         },
@@ -6039,7 +5466,7 @@
                             "value": "Montre"
                           },
                           "parameters": [
-                            "IconeEspada",
+                            "Icone_Chefe_Espada",
                             ""
                           ]
                         },
@@ -6048,7 +5475,7 @@
                             "value": "Delete"
                           },
                           "parameters": [
-                            "IconeEscudo",
+                            "Icone_Chefe_Escudo",
                             ""
                           ]
                         }
@@ -6092,7 +5519,7 @@
                     "value": "MettreXY"
                   },
                   "parameters": [
-                    "EquipamentoEspada",
+                    "Arma_Estilete",
                     "=",
                     "Jogador.CenterX()",
                     "=",
@@ -6104,7 +5531,7 @@
                     "value": "RotateTowardPosition"
                   },
                   "parameters": [
-                    "EquipamentoEspada",
+                    "Arma_Estilete",
                     "CursorX()",
                     "CursorY()",
                     "0",
@@ -6131,10 +5558,10 @@
                         "value": "AnimatableCapability::AnimatableBehavior::Name"
                       },
                       "parameters": [
-                        "EquipamentoEspada",
+                        "Arma_Estilete",
                         "Animation",
                         "=",
-                        "\"attack\""
+                        "\"Attack\""
                       ]
                     },
                     {
@@ -6150,10 +5577,10 @@
                         "value": "AnimatableCapability::AnimatableBehavior::SetName"
                       },
                       "parameters": [
-                        "EquipamentoEspada",
+                        "Arma_Estilete",
                         "Animation",
                         "=",
-                        "\"attack\""
+                        "\"Attack\""
                       ]
                     },
                     {
@@ -6162,9 +5589,9 @@
                       },
                       "parameters": [
                         "",
-                        "slash",
-                        "EquipamentoEspada.PointX(\"Ponta\")",
-                        "EquipamentoEspada.PointY(\"Ponta\")",
+                        "Ataque_Arma_Estilete",
+                        "Arma_Estilete.PointX(\"Ponta\")",
+                        "Arma_Estilete.PointY(\"Ponta\")",
                         ""
                       ]
                     },
@@ -6173,9 +5600,9 @@
                         "value": "SetAngle"
                       },
                       "parameters": [
-                        "slash",
+                        "Ataque_Arma_Estilete",
                         "=",
-                        "EquipamentoEspada.Angle()"
+                        "Arma_Estilete.Angle()"
                       ]
                     },
                     {
@@ -6184,7 +5611,7 @@
                       },
                       "parameters": [
                         "",
-                        "sfx\\estilete.mp3",
+                        "arma_estilete_ataque.mp3",
                         "",
                         "",
                         "RandomFloatInRange(0.9, 1.1)"
@@ -6200,7 +5627,7 @@
                         "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
                       },
                       "parameters": [
-                        "EquipamentoEspada",
+                        "Arma_Estilete",
                         "Animation"
                       ]
                     },
@@ -6209,10 +5636,10 @@
                         "value": "AnimatableCapability::AnimatableBehavior::Name"
                       },
                       "parameters": [
-                        "EquipamentoEspada",
+                        "Arma_Estilete",
                         "Animation",
                         "=",
-                        "\"attack\""
+                        "\"Attack\""
                       ]
                     }
                   ],
@@ -6222,10 +5649,10 @@
                         "value": "AnimatableCapability::AnimatableBehavior::SetName"
                       },
                       "parameters": [
-                        "EquipamentoEspada",
+                        "Arma_Estilete",
                         "Animation",
                         "=",
-                        "\"idle\""
+                        "\"Idle\""
                       ]
                     }
                   ]
@@ -6238,7 +5665,7 @@
                         "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
                       },
                       "parameters": [
-                        "slash",
+                        "Ataque_Arma_Estilete",
                         "Animation"
                       ]
                     }
@@ -6249,7 +5676,7 @@
                         "value": "Delete"
                       },
                       "parameters": [
-                        "slash",
+                        "Ataque_Arma_Estilete",
                         ""
                       ]
                     }
@@ -6265,7 +5692,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Equipamento Escudo",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6288,7 +5714,7 @@
                     "value": "EffectCapability::EffectBehavior::EnableEffect"
                   },
                   "parameters": [
-                    "EquipamentoEscudo",
+                    "Arma_Borracha",
                     "Effect",
                     "\"Effect\"",
                     ""
@@ -6317,7 +5743,7 @@
                     "value": "MettreXY"
                   },
                   "parameters": [
-                    "EquipamentoEscudo",
+                    "Arma_Borracha",
                     "=",
                     "Jogador.CenterX()",
                     "=",
@@ -6329,7 +5755,7 @@
                     "value": "RotateTowardPosition"
                   },
                   "parameters": [
-                    "EquipamentoEscudo",
+                    "Arma_Borracha",
                     "CursorX()",
                     "CursorY()",
                     "0",
@@ -6363,7 +5789,7 @@
                         "value": "ObjectVariableAsBoolean"
                       },
                       "parameters": [
-                        "EquipamentoEscudo",
+                        "Arma_Borracha",
                         "isShieldActivable",
                         "True"
                       ]
@@ -6375,7 +5801,7 @@
                         "value": "EffectCapability::EffectBehavior::EnableEffect"
                       },
                       "parameters": [
-                        "EquipamentoEscudo",
+                        "Arma_Borracha",
                         "Effect",
                         "\"Effect\"",
                         "yes"
@@ -6386,7 +5812,7 @@
                         "value": "SetObjectVariableAsBoolean"
                       },
                       "parameters": [
-                        "EquipamentoEscudo",
+                        "Arma_Borracha",
                         "isShieldActivable",
                         ""
                       ]
@@ -6406,7 +5832,7 @@
                       },
                       "parameters": [
                         "",
-                        "shield_activation2.wav",
+                        "arma_borracha_defesa_ativando.wav",
                         "",
                         "",
                         "RandomFloatInRange(0.9, 1.1)"
@@ -6435,7 +5861,7 @@
                         "value": "EffectCapability::EffectBehavior::EnableEffect"
                       },
                       "parameters": [
-                        "EquipamentoEscudo",
+                        "Arma_Borracha",
                         "Effect",
                         "\"Effect\"",
                         "no"
@@ -6463,7 +5889,7 @@
                         "value": "SetObjectVariableAsBoolean"
                       },
                       "parameters": [
-                        "EquipamentoEscudo",
+                        "Arma_Borracha",
                         "isShieldActivable",
                         "True"
                       ]
@@ -6478,7 +5904,7 @@
                         "value": "EffectCapability::EffectBehavior::IsEffectEnabled"
                       },
                       "parameters": [
-                        "EquipamentoEscudo",
+                        "Arma_Borracha",
                         "Effect",
                         "\"Effect\""
                       ]
@@ -6488,8 +5914,8 @@
                         "value": "CollisionNP"
                       },
                       "parameters": [
-                        "TiroInimigo",
-                        "EquipamentoEscudo",
+                        "Chefe_Arma_Ataque",
+                        "Arma_Borracha",
                         "",
                         "",
                         ""
@@ -6502,9 +5928,9 @@
                         "value": "Bounce::Bounce::BounceOff"
                       },
                       "parameters": [
-                        "TiroInimigo",
+                        "Chefe_Arma_Ataque",
                         "Bounce",
-                        "EquipamentoEscudo",
+                        "Arma_Borracha",
                         "1"
                       ]
                     },
@@ -6513,7 +5939,7 @@
                         "value": "Recolorizer::SpriteRecolorizer::Recolorize"
                       },
                       "parameters": [
-                        "TiroInimigo",
+                        "Chefe_Arma_Ataque",
                         "SpriteRecolorizer",
                         "\"255;0;0\"",
                         "\"126;211;33\"",
@@ -6528,10 +5954,10 @@
                         "value": "ModVarObjet"
                       },
                       "parameters": [
-                        "TiroInimigo",
+                        "Chefe_Arma_Ataque",
                         "BallDamange",
                         "=",
-                        "TiroInimigo.BallDamange + Jogador.force"
+                        "Chefe_Arma_Ataque.BallDamange + Jogador.force"
                       ]
                     },
                     {
@@ -6540,7 +5966,7 @@
                       },
                       "parameters": [
                         "",
-                        "shield-block-shortsword-143940.mp3",
+                        "arma_borracha_defesa_defendendo.mp3",
                         "",
                         "",
                         "RandomFloatInRange(0.9, 1.1)"
@@ -6571,8 +5997,8 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "TiroJogador",
-                    "Pedra",
+                    "Ataque_Arma_Grampeador",
+                    "Defesa_Chefe_Espada",
                     "",
                     "",
                     ""
@@ -6591,7 +6017,7 @@
                     "value": "Delete"
                   },
                   "parameters": [
-                    "TiroJogador",
+                    "Ataque_Arma_Grampeador",
                     ""
                   ]
                 },
@@ -6600,7 +6026,7 @@
                     "value": "ModVarObjet"
                   },
                   "parameters": [
-                    "Pedra",
+                    "Defesa_Chefe_Espada",
                     "durabilidade",
                     "-",
                     "1"
@@ -6617,7 +6043,7 @@
                     "value": "VarObjet"
                   },
                   "parameters": [
-                    "Pedra",
+                    "Defesa_Chefe_Espada",
                     "durabilidade",
                     "<=",
                     "0"
@@ -6630,7 +6056,7 @@
                     "value": "Delete"
                   },
                   "parameters": [
-                    "Pedra",
+                    "Defesa_Chefe_Espada",
                     "durabilidade"
                   ]
                 }
@@ -6644,7 +6070,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "TiroJogador",
+                    "Ataque_Arma_Grampeador",
                     "ParedeArena",
                     "",
                     "",
@@ -6658,7 +6084,7 @@
                     "value": "Delete"
                   },
                   "parameters": [
-                    "TiroJogador",
+                    "Ataque_Arma_Grampeador",
                     ""
                   ]
                 }
@@ -6685,7 +6111,7 @@
                     "value": "MettreXY"
                   },
                   "parameters": [
-                    "EquipamentoArma",
+                    "Arma_Grampeador",
                     "=",
                     "Jogador.CenterX()",
                     "=",
@@ -6697,7 +6123,7 @@
                     "value": "RotateTowardPosition"
                   },
                   "parameters": [
-                    "EquipamentoArma",
+                    "Arma_Grampeador",
                     "CursorX()",
                     "CursorY()",
                     "0",
@@ -6725,11 +6151,11 @@
                         "value": "FireBullet::FireBullet::FireTowardPosition"
                       },
                       "parameters": [
-                        "EquipamentoArma",
+                        "Arma_Grampeador",
                         "FireBullet",
-                        "EquipamentoArma.PointX(\"Cano\")",
-                        "EquipamentoArma.PointY(\"Cano\")",
-                        "TiroJogador",
+                        "Arma_Grampeador.PointX(\"Cano\")",
+                        "Arma_Grampeador.PointY(\"Cano\")",
+                        "Ataque_Arma_Grampeador",
                         "CursorX()",
                         "CursorY()",
                         "1000",
@@ -6746,7 +6172,7 @@
                         "value": "FireBullet::FireBullet::HasJustFired"
                       },
                       "parameters": [
-                        "EquipamentoArma",
+                        "Arma_Grampeador",
                         "FireBullet",
                         "="
                       ]
@@ -6765,7 +6191,7 @@
                       },
                       "parameters": [
                         "",
-                        "sfx\\grampeador.mp3",
+                        "arma_grampeador_ataque.mp3",
                         "",
                         "",
                         "RandomFloatInRange(0.9, 1.1)"
@@ -7051,7 +6477,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Ferindo o Jogador",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7064,7 +6489,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "TiroInimigo",
+                    "Chefe_Arma_Ataque",
                     "Jogador",
                     "",
                     "",
@@ -7076,7 +6501,7 @@
                     "value": "ObjectVariableAsBoolean"
                   },
                   "parameters": [
-                    "TiroInimigo",
+                    "Chefe_Arma_Ataque",
                     "activeDamage",
                     "True"
                   ]
@@ -7097,7 +6522,7 @@
                     "Jogador",
                     "life",
                     "-",
-                    "TiroInimigo.BallDamange"
+                    "Chefe_Arma_Ataque.BallDamange"
                   ]
                 },
                 {
@@ -7117,7 +6542,7 @@
                   },
                   "parameters": [
                     "",
-                    "mask-grunt-sound-38713.mp3",
+                    "jogador_recebendo-dano.mp3",
                     "",
                     "",
                     "RandomInRange(0.9, 1.1)"
@@ -7169,7 +6594,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "ChefeEscudo",
+                    "Chefe_Escudo",
                     "Jogador",
                     "",
                     "",
@@ -7216,7 +6641,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "AreaAtaqueInimigo",
+                    "Ataque_Chefe_Espada",
                     "Jogador",
                     "",
                     "",
@@ -7228,10 +6653,10 @@
                     "value": "AnimatableCapability::AnimatableBehavior::Name"
                   },
                   "parameters": [
-                    "AreaAtaqueInimigo",
+                    "Ataque_Chefe_Espada",
                     "Animation",
                     "=",
-                    "\"sword_attack\""
+                    "\"AtaqueCorte\""
                   ]
                 },
                 {
@@ -7270,7 +6695,7 @@
                   },
                   "parameters": [
                     "",
-                    "mask-grunt-sound-38713.mp3",
+                    "jogador_recebendo-dano.mp3",
                     "",
                     "",
                     "RandomInRange(0.9, 1.1)"
@@ -7302,7 +6727,7 @@
                 "value": "SeparateFromObjects"
               },
               "parameters": [
-                "ChefeEscudo",
+                "Chefe_Escudo",
                 "ParedeArena",
                 ""
               ]
@@ -7314,7 +6739,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Ferindo os Bosses",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7433,7 +6857,7 @@
                         "value": "CollisionNP"
                       },
                       "parameters": [
-                        "slash",
+                        "Ataque_Arma_Estilete",
                         "Bosses",
                         "",
                         "",
@@ -7446,7 +6870,7 @@
                         "value": "Flash::Flash::IsFlashing"
                       },
                       "parameters": [
-                        "ChefeArma",
+                        "Antigo_Chefe_Arma",
                         "Flash",
                         ""
                       ]
@@ -7456,10 +6880,10 @@
                         "value": "AnimatableCapability::AnimatableBehavior::Name"
                       },
                       "parameters": [
-                        "EquipamentoEspada",
+                        "Arma_Estilete",
                         "Animation",
                         "=",
-                        "\"attack\""
+                        "\"Attack\""
                       ]
                     },
                     {
@@ -7477,7 +6901,7 @@
                       "parameters": [
                         "CurrentLifeBoss",
                         "-",
-                        "EquipamentoEspada.SwordDamage"
+                        "Arma_Estilete.SwordDamage"
                       ]
                     },
                     {
@@ -7497,7 +6921,7 @@
                       },
                       "parameters": [
                         "",
-                        "hurt_c_08-102842.mp3",
+                        "chefe_recebendo-dano.mp3",
                         "",
                         "",
                         "RandomFloatInRange(0.9, 1.1)"
@@ -7513,7 +6937,7 @@
                         "value": "CollisionNP"
                       },
                       "parameters": [
-                        "slash",
+                        "Ataque_Arma_Estilete",
                         "Bosses",
                         "",
                         "",
@@ -7526,7 +6950,7 @@
                         "value": "Flash::Flash::IsFlashing"
                       },
                       "parameters": [
-                        "ChefeEscudo",
+                        "Chefe_Escudo",
                         "Flash",
                         ""
                       ]
@@ -7536,10 +6960,10 @@
                         "value": "AnimatableCapability::AnimatableBehavior::Name"
                       },
                       "parameters": [
-                        "EquipamentoEspada",
+                        "Arma_Estilete",
                         "Animation",
                         "=",
-                        "\"attack\""
+                        "\"Attack\""
                       ]
                     },
                     {
@@ -7557,7 +6981,7 @@
                       "parameters": [
                         "CurrentLifeBoss",
                         "-",
-                        "EquipamentoEspada.SwordDamage"
+                        "Arma_Estilete.SwordDamage"
                       ]
                     },
                     {
@@ -7577,7 +7001,7 @@
                       },
                       "parameters": [
                         "",
-                        "hurt_c_08-102842.mp3",
+                        "chefe_recebendo-dano.mp3",
                         "",
                         "",
                         "RandomFloatInRange(0.9, 1.1)"
@@ -7593,7 +7017,7 @@
                         "value": "CollisionNP"
                       },
                       "parameters": [
-                        "TiroJogador",
+                        "Ataque_Arma_Grampeador",
                         "Bosses",
                         "",
                         "",
@@ -7615,7 +7039,7 @@
                       "parameters": [
                         "CurrentLifeBoss",
                         "-",
-                        "TiroJogador.DamageGrampo"
+                        "Ataque_Arma_Grampeador.DamageGrampo"
                       ]
                     },
                     {
@@ -7635,7 +7059,7 @@
                       },
                       "parameters": [
                         "",
-                        "hurt_c_08-102842.mp3",
+                        "chefe_recebendo-dano.mp3",
                         "",
                         "",
                         "RandomFloatInRange(0.9, 1.1)"
@@ -7653,7 +7077,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Chefe Arma",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7670,14 +7093,14 @@
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "TiroInimigo",
+                  "object": "Chefe_Arma_Ataque",
                   "conditions": [
                     {
                       "type": {
                         "value": "CollisionNP"
                       },
                       "parameters": [
-                        "TiroInimigo",
+                        "Chefe_Arma_Ataque",
                         "ParedeArena",
                         "",
                         "",
@@ -7689,7 +7112,7 @@
                         "value": "ObjectVariableAsBoolean"
                       },
                       "parameters": [
-                        "TiroInimigo",
+                        "Chefe_Arma_Ataque",
                         "colidiuParede",
                         "False"
                       ]
@@ -7702,7 +7125,7 @@
                       },
                       "parameters": [
                         "",
-                        "enemy_shot.mp3",
+                        "chefe_arma_ataque_acerto-parede.mp3",
                         "",
                         "",
                         "RandomFloatInRange(0.9, 1.1)"
@@ -7713,7 +7136,7 @@
                         "value": "Arreter"
                       },
                       "parameters": [
-                        "TiroInimigo"
+                        "Chefe_Arma_Ataque"
                       ]
                     },
                     {
@@ -7721,7 +7144,7 @@
                         "value": "SetObjectVariableAsBoolean"
                       },
                       "parameters": [
-                        "TiroInimigo",
+                        "Chefe_Arma_Ataque",
                         "colidiuParede",
                         "True"
                       ]
@@ -7730,14 +7153,14 @@
                 },
                 {
                   "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "TiroInimigo",
+                  "object": "Chefe_Arma_Ataque",
                   "conditions": [
                     {
                       "type": {
                         "value": "ObjectVariableAsBoolean"
                       },
                       "parameters": [
-                        "TiroInimigo",
+                        "Chefe_Arma_Ataque",
                         "colidiuParede",
                         "True"
                       ]
@@ -7757,7 +7180,7 @@
                         "value": "Delete"
                       },
                       "parameters": [
-                        "TiroInimigo",
+                        "Chefe_Arma_Ataque",
                         ""
                       ]
                     }
@@ -7773,7 +7196,7 @@
                         "value": "Bounce::Bounce::BounceOff"
                       },
                       "parameters": [
-                        "TiroInimigo",
+                        "Chefe_Arma_Ataque",
                         "Bounce",
                         "ParedeArena",
                         ""
@@ -7803,7 +7226,7 @@
                         "value": "ObjectVariableAsBoolean"
                       },
                       "parameters": [
-                        "ChefeArma",
+                        "Antigo_Chefe_Arma",
                         "loopMovimentacao",
                         "True"
                       ]
@@ -7814,7 +7237,7 @@
                       },
                       "parameters": [
                         "",
-                        "ChefeArma",
+                        "Antigo_Chefe_Arma",
                         ">=",
                         "1"
                       ]
@@ -7832,7 +7255,7 @@
                         "value": "SetObjectVariableAsBoolean"
                       },
                       "parameters": [
-                        "ChefeArma",
+                        "Antigo_Chefe_Arma",
                         "loopMovimentacao",
                         ""
                       ]
@@ -7842,10 +7265,10 @@
                         "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
                       },
                       "parameters": [
-                        "ChefeArma",
+                        "Antigo_Chefe_Arma",
                         "Tween",
                         "\"ponto2\"",
-                        "AlvoChefeArma2.CenterX()",
+                        "Marcador_Chefe_Arma2.CenterX()",
                         "\"easeInOutQuad\"",
                         "1",
                         ""
@@ -7864,10 +7287,10 @@
                         "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
                       },
                       "parameters": [
-                        "ChefeArma",
+                        "Antigo_Chefe_Arma",
                         "Tween",
                         "\"ponto3\"",
-                        "AlvoChefeArma3.CenterY()",
+                        "Marcador_Chefe_Arma3.CenterY()",
                         "\"easeInOutQuad\"",
                         "1",
                         ""
@@ -7886,10 +7309,10 @@
                         "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
                       },
                       "parameters": [
-                        "ChefeArma",
+                        "Antigo_Chefe_Arma",
                         "Tween",
                         "\"ponto4\"",
-                        "AlvoChefeArma4.CenterX()",
+                        "Marcador_Chefe_Arma4.CenterX()",
                         "\"easeInOutQuad\"",
                         "1",
                         ""
@@ -7908,10 +7331,10 @@
                         "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
                       },
                       "parameters": [
-                        "ChefeArma",
+                        "Antigo_Chefe_Arma",
                         "Tween",
                         "\"ponto1\"",
-                        "AlvoChefeArma.CenterY()",
+                        "Marcador_Chefe_Arma1.CenterY()",
                         "\"easeInOutQuad\"",
                         "1",
                         ""
@@ -7930,7 +7353,7 @@
                         "value": "SetObjectVariableAsBoolean"
                       },
                       "parameters": [
-                        "ChefeArma",
+                        "Antigo_Chefe_Arma",
                         "loopMovimentacao",
                         "True"
                       ]
@@ -7958,7 +7381,7 @@
                         "value": "ObjectVariableAsBoolean"
                       },
                       "parameters": [
-                        "ChefeArmaRoda",
+                        "Chefe_Arma_Base",
                         "loopMovimentacao",
                         "True"
                       ]
@@ -7969,7 +7392,7 @@
                       },
                       "parameters": [
                         "",
-                        "ChefeArmaRoda",
+                        "Chefe_Arma_Base",
                         ">=",
                         "1"
                       ]
@@ -7987,7 +7410,7 @@
                         "value": "SetObjectVariableAsBoolean"
                       },
                       "parameters": [
-                        "ChefeArmaRoda",
+                        "Chefe_Arma_Base",
                         "loopMovimentacao",
                         ""
                       ]
@@ -7997,10 +7420,10 @@
                         "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
                       },
                       "parameters": [
-                        "ChefeArmaRoda",
+                        "Chefe_Arma_Base",
                         "Tween",
                         "\"ponto2\"",
-                        "AlvoChefeArma2.CenterX()",
+                        "Marcador_Chefe_Arma2.CenterX()",
                         "\"easeInOutQuad\"",
                         "1",
                         ""
@@ -8019,10 +7442,10 @@
                         "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
                       },
                       "parameters": [
-                        "ChefeArmaRoda",
+                        "Chefe_Arma_Base",
                         "Tween",
                         "\"ponto3\"",
-                        "AlvoChefeArma3.CenterY()",
+                        "Marcador_Chefe_Arma3.CenterY()",
                         "\"easeInOutQuad\"",
                         "1",
                         ""
@@ -8041,10 +7464,10 @@
                         "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
                       },
                       "parameters": [
-                        "ChefeArmaRoda",
+                        "Chefe_Arma_Base",
                         "Tween",
                         "\"ponto4\"",
-                        "AlvoChefeArma4.CenterX()",
+                        "Marcador_Chefe_Arma4.CenterX()",
                         "\"easeInOutQuad\"",
                         "1",
                         ""
@@ -8063,10 +7486,10 @@
                         "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
                       },
                       "parameters": [
-                        "ChefeArmaRoda",
+                        "Chefe_Arma_Base",
                         "Tween",
                         "\"ponto1\"",
-                        "AlvoChefeArma.CenterY()",
+                        "Marcador_Chefe_Arma1.CenterY()",
                         "\"easeInOutQuad\"",
                         "1",
                         ""
@@ -8085,7 +7508,7 @@
                         "value": "SetObjectVariableAsBoolean"
                       },
                       "parameters": [
-                        "ChefeArmaRoda",
+                        "Chefe_Arma_Base",
                         "loopMovimentacao",
                         "True"
                       ]
@@ -8101,7 +7524,7 @@
                         "value": "Rotate"
                       },
                       "parameters": [
-                        "ChefeArmaRoda",
+                        "Chefe_Arma_Base",
                         "720",
                         ""
                       ]
@@ -8111,7 +7534,7 @@
                         "value": "RotateTowardPosition"
                       },
                       "parameters": [
-                        "ChefeArmaCabeca",
+                        "Chefe_Arma_Cabeca",
                         "Jogador.CenterX()",
                         "Jogador.CenterY()",
                         "0",
@@ -8123,11 +7546,11 @@
                         "value": "SetCenter"
                       },
                       "parameters": [
-                        "ChefeArmaCabeca",
+                        "Chefe_Arma_Cabeca",
                         "=",
-                        "ChefeArmaRoda.PointX(\"Juncao\")",
+                        "Chefe_Arma_Base.PointX(\"Juncao\")",
                         "=",
-                        "ChefeArmaRoda.PointY(\"Juncao\")"
+                        "Chefe_Arma_Base.PointY(\"Juncao\")"
                       ]
                     }
                   ]
@@ -8140,7 +7563,7 @@
                         "value": "PosX"
                       },
                       "parameters": [
-                        "ChefeArmaCabeca",
+                        "Chefe_Arma_Cabeca",
                         ">=",
                         "Jogador.CenterX()"
                       ]
@@ -8152,7 +7575,7 @@
                         "value": "FlippableCapability::FlippableBehavior::FlipX"
                       },
                       "parameters": [
-                        "ChefeArmaCabeca",
+                        "Chefe_Arma_Cabeca",
                         "Flippable",
                         "no"
                       ]
@@ -8162,7 +7585,7 @@
                         "value": "FlippableCapability::FlippableBehavior::FlipY"
                       },
                       "parameters": [
-                        "ChefeArmaCabeca",
+                        "Chefe_Arma_Cabeca",
                         "Flippable",
                         "yes"
                       ]
@@ -8178,7 +7601,7 @@
                         "value": "PosX"
                       },
                       "parameters": [
-                        "ChefeArmaCabeca",
+                        "Chefe_Arma_Cabeca",
                         ">=",
                         "Jogador.CenterX()"
                       ]
@@ -8190,7 +7613,7 @@
                         "value": "FlippableCapability::FlippableBehavior::FlipX"
                       },
                       "parameters": [
-                        "ChefeArmaCabeca",
+                        "Chefe_Arma_Cabeca",
                         "Flippable",
                         "no"
                       ]
@@ -8200,7 +7623,7 @@
                         "value": "FlippableCapability::FlippableBehavior::FlipY"
                       },
                       "parameters": [
-                        "ChefeArmaCabeca",
+                        "Chefe_Arma_Cabeca",
                         "Flippable",
                         "no"
                       ]
@@ -8216,7 +7639,6 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": true,
-              "folded": true,
               "name": "Ataque",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -8248,9 +7670,9 @@
                         "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
                       },
                       "parameters": [
-                        "BarraInimigo",
+                        "Barra_Chefe",
                         "=",
-                        "ChefeArma.life",
+                        "Antigo_Chefe_Arma.life",
                         ""
                       ]
                     }
@@ -8264,7 +7686,7 @@
                         "value": "VarObjet"
                       },
                       "parameters": [
-                        "TiroInimigo",
+                        "Chefe_Arma_Ataque",
                         "expireTime",
                         "<",
                         "0"
@@ -8277,7 +7699,7 @@
                         "value": "Delete"
                       },
                       "parameters": [
-                        "TiroInimigo",
+                        "Chefe_Arma_Ataque",
                         ""
                       ]
                     }
@@ -8292,11 +7714,11 @@
                         "value": "FireBullet::FireBullet::FireTowardObject"
                       },
                       "parameters": [
-                        "ChefeArma",
+                        "Antigo_Chefe_Arma",
                         "FireBullet",
-                        "ChefeArma.CenterX()",
-                        "ChefeArma.CenterY()",
-                        "TiroInimigo",
+                        "Antigo_Chefe_Arma.CenterX()",
+                        "Antigo_Chefe_Arma.CenterY()",
+                        "Chefe_Arma_Ataque",
                         "Jogador",
                         "500",
                         ""
@@ -8307,7 +7729,7 @@
                         "value": "SetObjectVariableAsBoolean"
                       },
                       "parameters": [
-                        "TiroInimigo",
+                        "Chefe_Arma_Ataque",
                         "activeDamage",
                         "True"
                       ]
@@ -8317,10 +7739,10 @@
                         "value": "ModVarObjet"
                       },
                       "parameters": [
-                        "TiroInimigo",
+                        "Chefe_Arma_Ataque",
                         "BallDamange",
                         "=",
-                        "ChefeArma.Force"
+                        "Antigo_Chefe_Arma.Force"
                       ]
                     }
                   ]
@@ -8333,7 +7755,7 @@
                         "value": "FireBullet::FireBullet::HasJustFired"
                       },
                       "parameters": [
-                        "ChefeArma",
+                        "Antigo_Chefe_Arma",
                         "FireBullet",
                         "="
                       ]
@@ -8352,7 +7774,7 @@
                       },
                       "parameters": [
                         "",
-                        "teleport-14639.mp3",
+                        "chefe_arma_ataque_disparo.mp3",
                         "",
                         "",
                         "RandomFloatInRange(0.9, 1.1)"
@@ -8381,7 +7803,7 @@
                         "value": "ModVarObjet"
                       },
                       "parameters": [
-                        "TiroInimigo",
+                        "Chefe_Arma_Ataque",
                         "expireTime",
                         "-",
                         "1"
@@ -8406,7 +7828,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Ataque Novo",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -8438,9 +7859,9 @@
                         "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
                       },
                       "parameters": [
-                        "BarraInimigo",
+                        "Barra_Chefe",
                         "=",
-                        "ChefeArmaCabeca.life",
+                        "Chefe_Arma_Cabeca.life",
                         ""
                       ]
                     }
@@ -8454,7 +7875,7 @@
                         "value": "VarObjet"
                       },
                       "parameters": [
-                        "TiroInimigo",
+                        "Chefe_Arma_Ataque",
                         "expireTime",
                         "<",
                         "0"
@@ -8467,7 +7888,7 @@
                         "value": "Delete"
                       },
                       "parameters": [
-                        "TiroInimigo",
+                        "Chefe_Arma_Ataque",
                         ""
                       ]
                     }
@@ -8482,11 +7903,11 @@
                         "value": "FireBullet::FireBullet::FireTowardObject"
                       },
                       "parameters": [
-                        "ChefeArmaCabeca",
+                        "Chefe_Arma_Cabeca",
                         "FireBullet",
-                        "ChefeArmaCabeca.PointX(\"Boca\")",
-                        "ChefeArmaCabeca.PointY(\"Boca\")",
-                        "TiroInimigo",
+                        "Chefe_Arma_Cabeca.PointX(\"Boca\")",
+                        "Chefe_Arma_Cabeca.PointY(\"Boca\")",
+                        "Chefe_Arma_Ataque",
                         "Jogador",
                         "800",
                         ""
@@ -8497,7 +7918,7 @@
                         "value": "ChangePlan"
                       },
                       "parameters": [
-                        "TiroInimigo",
+                        "Chefe_Arma_Ataque",
                         "=",
                         "-5"
                       ]
@@ -8507,7 +7928,7 @@
                         "value": "SetObjectVariableAsBoolean"
                       },
                       "parameters": [
-                        "TiroInimigo",
+                        "Chefe_Arma_Ataque",
                         "activeDamage",
                         "True"
                       ]
@@ -8517,10 +7938,10 @@
                         "value": "ModVarObjet"
                       },
                       "parameters": [
-                        "TiroInimigo",
+                        "Chefe_Arma_Ataque",
                         "BallDamange",
                         "=",
-                        "ChefeArmaCabeca.dano"
+                        "Chefe_Arma_Cabeca.dano"
                       ]
                     }
                   ]
@@ -8533,7 +7954,7 @@
                         "value": "FireBullet::FireBullet::HasJustFired"
                       },
                       "parameters": [
-                        "ChefeArmaCabeca",
+                        "Chefe_Arma_Cabeca",
                         "FireBullet",
                         "="
                       ]
@@ -8552,7 +7973,7 @@
                       },
                       "parameters": [
                         "",
-                        "teleport-14639.mp3",
+                        "chefe_arma_ataque_disparo.mp3",
                         "",
                         "",
                         "RandomFloatInRange(0.9, 1.1)"
@@ -8563,7 +7984,7 @@
                         "value": "AnimatableCapability::AnimatableBehavior::SetName"
                       },
                       "parameters": [
-                        "ChefeArmaCabeca",
+                        "Chefe_Arma_Cabeca",
                         "Animation",
                         "=",
                         "\"Attack\""
@@ -8579,7 +8000,7 @@
                         "value": "AnimatableCapability::AnimatableBehavior::Name"
                       },
                       "parameters": [
-                        "ChefeArmaCabeca",
+                        "Chefe_Arma_Cabeca",
                         "Animation",
                         "=",
                         "\"Attack\""
@@ -8590,7 +8011,7 @@
                         "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
                       },
                       "parameters": [
-                        "ChefeArmaCabeca",
+                        "Chefe_Arma_Cabeca",
                         "Animation"
                       ]
                     }
@@ -8601,7 +8022,7 @@
                         "value": "AnimatableCapability::AnimatableBehavior::SetName"
                       },
                       "parameters": [
-                        "ChefeArmaCabeca",
+                        "Chefe_Arma_Cabeca",
                         "Animation",
                         "=",
                         "\"Idle\""
@@ -8630,7 +8051,7 @@
                         "value": "ModVarObjet"
                       },
                       "parameters": [
-                        "TiroInimigo",
+                        "Chefe_Arma_Ataque",
                         "expireTime",
                         "-",
                         "1"
@@ -8698,7 +8119,7 @@
                         "value": "EffectCapability::EffectBehavior::EnableEffect"
                       },
                       "parameters": [
-                        "ChefeEscudo",
+                        "Chefe_Escudo",
                         "Effect",
                         "\"Effect\"",
                         ""
@@ -8727,7 +8148,7 @@
                         "value": "SetObjectVariableAsBoolean"
                       },
                       "parameters": [
-                        "ChefeEscudo",
+                        "Chefe_Escudo",
                         "IsShield",
                         "True"
                       ]
@@ -8737,7 +8158,7 @@
                         "value": "EffectCapability::EffectBehavior::EnableEffect"
                       },
                       "parameters": [
-                        "ChefeEscudo",
+                        "Chefe_Escudo",
                         "Effect",
                         "\"Effect\"",
                         "yes"
@@ -8756,7 +8177,7 @@
                         "value": "EffectCapability::EffectBehavior::EnableEffect"
                       },
                       "parameters": [
-                        "ChefeEscudo",
+                        "Chefe_Escudo",
                         "Effect",
                         "\"Effect\"",
                         ""
@@ -8781,7 +8202,7 @@
                         "value": "EffectCapability::EffectBehavior::IsEffectEnabled"
                       },
                       "parameters": [
-                        "ChefeEscudo",
+                        "Chefe_Escudo",
                         "Effect",
                         "\"Effect\""
                       ]
@@ -8793,7 +8214,7 @@
                         "value": "SetObjectVariableAsBoolean"
                       },
                       "parameters": [
-                        "ChefeEscudo",
+                        "Chefe_Escudo",
                         "IsShield",
                         "True"
                       ]
@@ -8819,7 +8240,7 @@
                         "value": "EffectCapability::EffectBehavior::IsEffectEnabled"
                       },
                       "parameters": [
-                        "ChefeEscudo",
+                        "Chefe_Escudo",
                         "Effect",
                         "\"Effect\""
                       ]
@@ -8831,7 +8252,7 @@
                         "value": "SetObjectVariableAsBoolean"
                       },
                       "parameters": [
-                        "ChefeEscudo",
+                        "Chefe_Escudo",
                         "IsShield",
                         "False"
                       ]
@@ -8922,7 +8343,7 @@
                       },
                       "parameters": [
                         "ChefeEscudo",
-                        "ChefeEscudo",
+                        "Chefe_Escudo",
                         ">=",
                         "1"
                       ]
@@ -8954,7 +8375,7 @@
                         "value": "Arreter"
                       },
                       "parameters": [
-                        "ChefeEscudo"
+                        "Chefe_Escudo"
                       ]
                     },
                     {
@@ -8962,7 +8383,7 @@
                         "value": "AddForceVersPos"
                       },
                       "parameters": [
-                        "ChefeEscudo",
+                        "Chefe_Escudo",
                         "PlayerGlobalX",
                         "PlayerGlobalY",
                         "2000",
@@ -8988,7 +8409,7 @@
                         "value": "CollisionNP"
                       },
                       "parameters": [
-                        "ChefeEscudo",
+                        "Chefe_Escudo",
                         "ParedeArena",
                         "",
                         "",
@@ -9008,7 +8429,7 @@
                         "value": "Arreter"
                       },
                       "parameters": [
-                        "ChefeEscudo"
+                        "Chefe_Escudo"
                       ]
                     }
                   ]
@@ -9045,7 +8466,7 @@
                       },
                       "parameters": [
                         "ChefeEscudo",
-                        "ChefeEscudo",
+                        "Chefe_Escudo",
                         ">=",
                         "1"
                       ]
@@ -9056,7 +8477,7 @@
                         "value": "CollisionNP"
                       },
                       "parameters": [
-                        "ChefeEscudo",
+                        "Chefe_Escudo",
                         "ParedeArena",
                         "",
                         "",
@@ -9071,9 +8492,9 @@
                       },
                       "parameters": [
                         "",
-                        "SlowArea",
-                        "ChefeEscudo.CenterX()",
-                        "ChefeEscudo.CenterY()",
+                        "Chefe_Escudo_Ataque",
+                        "Chefe_Escudo.CenterX()",
+                        "Chefe_Escudo.CenterY()",
                         ""
                       ]
                     },
@@ -9082,7 +8503,7 @@
                         "value": "OpacityCapability::OpacityBehavior::SetValue"
                       },
                       "parameters": [
-                        "SlowArea",
+                        "Chefe_Escudo_Ataque",
                         "Opacity",
                         "=",
                         "150"
@@ -9093,7 +8514,7 @@
                         "value": "ChangePlan"
                       },
                       "parameters": [
-                        "SlowArea",
+                        "Chefe_Escudo_Ataque",
                         "=",
                         "-5"
                       ]
@@ -9103,7 +8524,7 @@
                         "value": "ScalableCapability::ScalableBehavior::SetValue"
                       },
                       "parameters": [
-                        "SlowArea",
+                        "Chefe_Escudo_Ataque",
                         "Scale",
                         "=",
                         "2"
@@ -9141,7 +8562,7 @@
                         "value": "ModVarObjet"
                       },
                       "parameters": [
-                        "SlowArea",
+                        "Chefe_Escudo_Ataque",
                         "tempoAtivoLentidao",
                         "-",
                         "0.1"
@@ -9152,7 +8573,7 @@
                         "value": "OpacityCapability::OpacityBehavior::SetValue"
                       },
                       "parameters": [
-                        "SlowArea",
+                        "Chefe_Escudo_Ataque",
                         "Opacity",
                         "-",
                         "3"
@@ -9163,7 +8584,7 @@
                         "value": "ShakeObject::ShakeObject_PositionAngleScale::ShakeObject_PositionAngleScale"
                       },
                       "parameters": [
-                        "SlowArea",
+                        "Chefe_Escudo_Ataque",
                         "ShakeObject_PositionAngleScale",
                         "0.5",
                         "5",
@@ -9194,7 +8615,7 @@
                         "value": "VarObjet"
                       },
                       "parameters": [
-                        "SlowArea",
+                        "Chefe_Escudo_Ataque",
                         "tempoAtivoLentidao",
                         "<=",
                         "0"
@@ -9207,7 +8628,7 @@
                         "value": "Delete"
                       },
                       "parameters": [
-                        "SlowArea",
+                        "Chefe_Escudo_Ataque",
                         ""
                       ]
                     }
@@ -9224,7 +8645,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Chefe Espada",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -9279,7 +8699,7 @@
                         "value": "CollisionNP"
                       },
                       "parameters": [
-                        "AlvoChefeEspada",
+                        "Alvo_Chefe_Espada",
                         "ChefeEspada",
                         "",
                         "",
@@ -9301,7 +8721,7 @@
                         "value": "Delete"
                       },
                       "parameters": [
-                        "AlvoChefeEspada",
+                        "Alvo_Chefe_Espada",
                         ""
                       ]
                     },
@@ -9311,7 +8731,7 @@
                       },
                       "parameters": [
                         "",
-                        "AreaAtaqueInimigo",
+                        "Ataque_Chefe_Espada",
                         "ChefeEspada.CenterX()",
                         "ChefeEspada.CenterY()",
                         ""
@@ -9322,7 +8742,7 @@
                         "value": "OpacityCapability::OpacityBehavior::SetValue"
                       },
                       "parameters": [
-                        "AreaAtaqueInimigo",
+                        "Ataque_Chefe_Espada",
                         "Opacity",
                         "=",
                         "100"
@@ -9333,7 +8753,7 @@
                         "value": "ChangePlan"
                       },
                       "parameters": [
-                        "AreaAtaqueInimigo",
+                        "Ataque_Chefe_Espada",
                         "=",
                         "-1"
                       ]
@@ -9343,7 +8763,7 @@
                         "value": "ScalableCapability::ScalableBehavior::SetValue"
                       },
                       "parameters": [
-                        "AreaAtaqueInimigo",
+                        "Ataque_Chefe_Espada",
                         "Scale",
                         "=",
                         "1.5"
@@ -9362,10 +8782,10 @@
                         "value": "AnimatableCapability::AnimatableBehavior::SetName"
                       },
                       "parameters": [
-                        "AreaAtaqueInimigo",
+                        "Ataque_Chefe_Espada",
                         "Animation",
                         "=",
-                        "\"sword_attack\""
+                        "\"AtaqueCorte\""
                       ]
                     },
                     {
@@ -9373,7 +8793,7 @@
                         "value": "OpacityCapability::OpacityBehavior::SetValue"
                       },
                       "parameters": [
-                        "AreaAtaqueInimigo",
+                        "Ataque_Chefe_Espada",
                         "Opacity",
                         "=",
                         "255"
@@ -9404,10 +8824,10 @@
                             "value": "AnimatableCapability::AnimatableBehavior::Name"
                           },
                           "parameters": [
-                            "AreaAtaqueInimigo",
+                            "Ataque_Chefe_Espada",
                             "Animation",
                             "=",
-                            "\"sword_attack\""
+                            "\"AtaqueCorte\""
                           ]
                         },
                         {
@@ -9415,7 +8835,7 @@
                             "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
                           },
                           "parameters": [
-                            "AreaAtaqueInimigo",
+                            "Ataque_Chefe_Espada",
                             "Animation"
                           ]
                         }
@@ -9428,7 +8848,7 @@
                         "value": "Delete"
                       },
                       "parameters": [
-                        "AreaAtaqueInimigo",
+                        "Ataque_Chefe_Espada",
                         ""
                       ]
                     },
@@ -9438,7 +8858,7 @@
                       },
                       "parameters": [
                         "",
-                        "Pedra",
+                        "Defesa_Chefe_Espada",
                         "ChefeEspada.PointX(\"Top\")",
                         "ChefeEspada.PointY(\"Top\") - 128",
                         ""
@@ -9450,7 +8870,7 @@
                       },
                       "parameters": [
                         "",
-                        "Pedra",
+                        "Defesa_Chefe_Espada",
                         "ChefeEspada.PointX(\"Down\")",
                         "ChefeEspada.PointY(\"Down\") + 128",
                         ""
@@ -9462,7 +8882,7 @@
                       },
                       "parameters": [
                         "",
-                        "Pedra",
+                        "Defesa_Chefe_Espada",
                         "ChefeEspada.PointX(\"Left\") - 128",
                         "ChefeEspada.PointY(\"Left\")",
                         ""
@@ -9474,7 +8894,7 @@
                       },
                       "parameters": [
                         "",
-                        "Pedra",
+                        "Defesa_Chefe_Espada",
                         "ChefeEspada.PointX(\"Right\") + 128",
                         "ChefeEspada.PointY(\"Right\")",
                         ""
@@ -9486,7 +8906,7 @@
                       },
                       "parameters": [
                         "",
-                        "Pedra",
+                        "Defesa_Chefe_Espada",
                         "ChefeEspada.PointX(\"TopLeft\") - 64",
                         "ChefeEspada.PointY(\"TopLeft\") - 64",
                         ""
@@ -9498,7 +8918,7 @@
                       },
                       "parameters": [
                         "",
-                        "Pedra",
+                        "Defesa_Chefe_Espada",
                         "ChefeEspada.PointX(\"TopRight\") + 64",
                         "ChefeEspada.PointY(\"TopRight\") - 64",
                         ""
@@ -9510,7 +8930,7 @@
                       },
                       "parameters": [
                         "",
-                        "Pedra",
+                        "Defesa_Chefe_Espada",
                         "ChefeEspada.PointX(\"DownLeft\") - 64",
                         "ChefeEspada.PointY(\"DownLeft\") + 64",
                         ""
@@ -9522,7 +8942,7 @@
                       },
                       "parameters": [
                         "",
-                        "Pedra",
+                        "Defesa_Chefe_Espada",
                         "ChefeEspada.PointX(\"DownRight\") + 64",
                         "ChefeEspada.PointY(\"DownRight\") + 64",
                         ""
@@ -9604,7 +9024,7 @@
                       },
                       "parameters": [
                         "",
-                        "AlvoChefeEspada",
+                        "Alvo_Chefe_Espada",
                         "PlayerGlobalX",
                         "PlayerGlobalY",
                         ""
@@ -9615,7 +9035,7 @@
                         "value": "Cache"
                       },
                       "parameters": [
-                        "AlvoChefeEspada"
+                        "Alvo_Chefe_Espada"
                       ]
                     }
                   ]
@@ -9629,7 +9049,7 @@
                       },
                       "parameters": [
                         "ChefeEspada",
-                        "Pedra",
+                        "Defesa_Chefe_Espada",
                         "",
                         "",
                         ""
@@ -9642,7 +9062,7 @@
                         "value": "Delete"
                       },
                       "parameters": [
-                        "Pedra",
+                        "Defesa_Chefe_Espada",
                         ""
                       ]
                     }

@@ -45,7 +45,7 @@
       "depth": 32,
       "height": 128,
       "layer": "",
-      "name": "Jogar",
+      "name": "Botao_Jogar",
       "persistentUuid": "a5d416ff-68f1-49d7-acb3-c177326561c9",
       "width": 320,
       "x": 832,
@@ -69,7 +69,7 @@
       "effects": [],
       "behaviors": [],
       "string": "YOU LOSE",
-      "font": "e96b43b0ca3fd7775d75a702f44cd1b0dfd325e1db317f7cba84efdf572571fe_Roboto-Regular.ttf",
+      "font": "Roboto-Regular",
       "textAlignment": "left",
       "characterSize": 300,
       "color": {
@@ -92,7 +92,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "YOU LOSE",
-        "font": "e96b43b0ca3fd7775d75a702f44cd1b0dfd325e1db317f7cba84efdf572571fe_Roboto-Regular.ttf",
+        "font": "Roboto-Regular",
         "textAlignment": "left",
         "characterSize": 300,
         "color": "255;1;32"

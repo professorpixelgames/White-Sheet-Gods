@@ -66,127 +66,46 @@
     "resources": [
       {
         "alwaysLoaded": false,
-        "file": "assets/NewSprite28.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/New image8.png",
+        "file": "_game-assets/images/parede-arena.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "New image",
+        "name": "parede-arena",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/New image9.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "New image2",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite29.png",
+        "file": "_game-assets/images/jogador_esquerda.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite2",
+        "name": "jogador_esquerda",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/NewSprite30.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite3.png\"}",
-        "name": "NewSprite3",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite31.png",
+        "file": "_game-assets/images/jogador_direita.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite4",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite32.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite5",
+        "name": "jogador_direita",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/NewSprite33.png",
+        "file": "_game-assets/images/antigo_chefe_arma.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite6",
+        "name": "antigo_chefe_arma",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/NewSprite34.png",
+        "file": "_game-assets/images/barra_borda_chefe.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\NewSprite6.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/assets_NewSprite8.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "assets\\NewSprite7",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite35.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite7.png\"}",
-        "name": "NewSprite7",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite36.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite8",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite37.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite9",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Copper Bar Border2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Copper Bar Border.png",
+        "name": "barra_borda_chefe",
         "smoothed": false,
         "userAdded": false,
         "origin": {
@@ -196,10 +115,10 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Framed Pixel Red Fill Bar2.png",
+        "file": "_game-assets/images/barra_preenchimento_chefe.png",
         "kind": "image",
         "metadata": "",
-        "name": "Framed Pixel Red Fill Bar.png",
+        "name": "barra_preenchimento_chefe",
         "smoothed": false,
         "userAdded": false,
         "origin": {
@@ -209,353 +128,108 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/NewSprite38.png",
+        "file": "_game-assets/images/icone_chefe_arma.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite10",
+        "name": "icone_chefe_arma",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/NewSprite39.png",
+        "file": "_game-assets/images/icone_chefe_escudo.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite11",
+        "name": "icone_chefe_escudo",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/NewSprite40.png",
+        "file": "_game-assets/images/icone_chefe_espada.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite12",
+        "name": "icone_chefe_espada",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/NewSprite41.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite13",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/BossGun2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "BossGun",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/BossShield2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "BossShield",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/BossSword3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "BossSword",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite42.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite14.png\"}",
-        "name": "NewSprite14",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite43.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite15",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite44.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/NewSprite14.png\",\"extension\":\".png\"}",
-        "name": "assets\\NewSprite14.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite45.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/NewSprite15.png\",\"extension\":\".png\"}",
-        "name": "assets\\NewSprite15.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sword_0.png",
+        "file": "_game-assets/images/ataque-area_chefe_espada.png",
         "kind": "image",
         "metadata": "",
-        "name": "sword_0.png",
+        "name": "ataque-area_chefe_espada",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/sword_1.png",
+        "file": "_game-assets/images/ataque-corte_chefe_espada (1).png",
         "kind": "image",
         "metadata": "",
-        "name": "sword_1.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sword_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sword_2.png",
+        "name": "ataque-corte_chefe_espada (1)",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/sword_3.png",
+        "file": "_game-assets/images/ataque-corte_chefe_espada (2).png",
         "kind": "image",
         "metadata": "",
-        "name": "sword_3.png",
+        "name": "ataque-corte_chefe_espada (2)",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/sword_4.png",
+        "file": "_game-assets/images/ataque-corte_chefe_espada (3).png",
         "kind": "image",
         "metadata": "",
-        "name": "sword_4.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sword_5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sword_5.png",
+        "name": "ataque-corte_chefe_espada (3)",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/sword_6.png",
+        "file": "_game-assets/images/ataque-corte_chefe_espada (4).png",
         "kind": "image",
         "metadata": "",
-        "name": "sword_6.png",
+        "name": "ataque-corte_chefe_espada (4)",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/sword_02.png",
+        "file": "_game-assets/images/ataque-corte_chefe_espada (5).png",
         "kind": "image",
         "metadata": "",
-        "name": "sword_02.png",
+        "name": "ataque-corte_chefe_espada (5)",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/sword_7.png",
+        "file": "_game-assets/images/ataque-corte_chefe_espada (6).png",
         "kind": "image",
         "metadata": "",
-        "name": "sword_7.png",
+        "name": "ataque-corte_chefe_espada (6)",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/sword_8.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sword_8.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sword_9.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sword_9.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sword_10.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sword_10.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sword.effect_0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sword.effect_0.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sword.effect_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sword.effect_1.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sword.effect_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sword.effect_2.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sword.effect_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sword.effect_3.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite46.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite16",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sword.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sword.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/assets_assets_NewSprite17.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets_assets_NewSprite17.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/assets_assets_NewSprite18.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets_assets_NewSprite18.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/assets_assets_NewSprite19.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets_assets_NewSprite19.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/assets_assets_NewSprite20.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets_assets_NewSprite20.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/assets_assets_NewSprite21.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets_assets_NewSprite21.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/assets_assets_NewSprite22.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets_assets_NewSprite22.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/BossSword4.png",
+        "file": "_game-assets/images/chefe_espada.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/BossSword2.png\"}",
-        "name": "BossSword2",
+        "name": "chefe_espada",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
-        "file": "assets/PointAttackBoss3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "PointAttackBoss",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "file": "assets/Tangerine-Bold2.ttf",
+        "file": "_game-assets/Roboto-Regular.ttf",
         "kind": "font",
         "metadata": "",
-        "name": "63ed629ffceb2e323f5c3b471bdc70d24d2188f548e8ab5520bd2321a331c791_Tangerine-Bold.ttf",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/63ed629ffceb2e323f5c3b471bdc70d24d2188f548e8ab5520bd2321a331c791_Tangerine-Bold.ttf",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "file": "assets/Roboto-Regular2.ttf",
-        "kind": "font",
-        "metadata": "",
-        "name": "e96b43b0ca3fd7775d75a702f44cd1b0dfd325e1db317f7cba84efdf572571fe_Roboto-Regular.ttf",
+        "name": "Roboto-Regular",
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/e96b43b0ca3fd7775d75a702f44cd1b0dfd325e1db317f7cba84efdf572571fe_Roboto-Regular.ttf",
@@ -564,94 +238,36 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/NewSprite47.png",
+        "file": "_game-assets/images/marcador_chefe_arma.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite17",
+        "name": "marcador_chefe_arma",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/PointAttackBoss4.png",
+        "file": "_game-assets/images/alvo_chefe_espada.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "PointAttackBoss2",
+        "name": "alvo_chefe_espada",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Trail2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Trail.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/PixiJS/75d9dc860af51d259a409f2387d49a2b152521b10cfc3662149e4fcf9f1be053_Trail.png",
-          "name": "Trail.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "new/grampo.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "new\\grampo.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "new/grampeador.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "new\\grampeador.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/new_grampeador4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "new\\grampeador",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/new_grampeador5.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/new_grampeador2.png\"}",
-        "name": "new\\grampeador2",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/new_grampeador6.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "new\\grampeador3",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/new_grampeador7.png",
+        "file": "_game-assets/images/arma_grampeador.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/new_grampeador.png\",\"extension\":\".png\"}",
-        "name": "assets\\new_grampeador.png",
+        "name": "arma_grampeador",
         "smoothed": false,
         "userAdded": true
       },
       {
-        "file": "assets/grampeador.mp3",
+        "file": "_game-assets/sounds/arma_grampeador_ataque.mp3",
         "kind": "audio",
         "metadata": "",
-        "name": "sfx\\grampeador.mp3",
+        "name": "arma_grampeador_ataque.mp3",
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
@@ -659,720 +275,144 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/estilete3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "estilete.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/estilete4.png",
+        "file": "_game-assets/images/ataque_arama_estilete (1).png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "estilete",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/estilete5.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "estilete2",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/estilete6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\estilete2.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/estilete7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "estilete2.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/estilete8.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "estilete3.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/estilete9.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "estilete4.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/estilete10.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "estilete5.png",
+        "name": "ataque_arma_estilete (1)",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/estilete11.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "estilete6.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/attack34.png",
+        "file": "_game-assets/images/ataque_arama_estilete (2).png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "attack",
+        "name": "ataque_arma_estilete (2)",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/attack35.png",
+        "file": "_game-assets/images/ataque_arma_estilete (3).png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "attack2",
+        "name": "ataque_arma_estilete (3)",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/attack36.png",
+        "file": "_game-assets/images/arma_estilete_parado.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "attack3",
+        "name": "arma_estilete_parado",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/attack37.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "attack4",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/attack38.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "attack5",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/attack39.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "attack6",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/attack40.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "attack7",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/attack41.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "attack8",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/attack42.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "attack9",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/attack43.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "attack10",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/attack44.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "attack11",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/attack45.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "attack12",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/attack46.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "attack13",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/attack47.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "attack14",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/attack48.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "attack15",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sword_00.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sword_00.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sword_01.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sword_01.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sword_03.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sword_03.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sword_04.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sword_04.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sword_05.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sword_05.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sword_06.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sword_06.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sword_07.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sword_07.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sword_08.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sword_08.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sword_09.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sword_09.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite48.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite18",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite49.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite19",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite50.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite20",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite51.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite21",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite52.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite22",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite53.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite23",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite54.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite24",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite55.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite25",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite56.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite26",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite57.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite27",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sword_010.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sword_010.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/attack49.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "attack1",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/attack50.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "attack16",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/attack51.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "attack17",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/attack52.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "attack18",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/attack53.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "attack19",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/attack54.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "attack20",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/attack55.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "attack21",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/idle4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "idle",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sword_002.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sword_002.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sword_011.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sword_011.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sword_012.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sword_012.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sword_013.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sword_013.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/sword_014.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sword_014.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/attack56.png",
+        "file": "_game-assets/images/arma_estilete_ataque (1).png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/attack22.png\"}",
-        "name": "attack22",
+        "name": "arma_estilete_ataque (1)",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/attack57.png",
+        "file": "_game-assets/images/arma_estilete_ataque (2).png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/attack23.png\"}",
-        "name": "attack23",
+        "name": "arma_estilete_ataque (2)",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/attack58.png",
+        "file": "_game-assets/images/arma_estilete_ataque (3).png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/attack24.png\"}",
-        "name": "attack24",
+        "name": "arma_estilete_ataque (3)",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/attack59.png",
+        "file": "_game-assets/images/arma_estilete_ataque (4).png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/attack25.png\"}",
-        "name": "attack25",
+        "name": "arma_estilete_ataque (4)",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/attack60.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/attack26.png\"}",
-        "name": "attack26",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/attack61.png",
+        "file": "_game-assets/images/arma_estilete_ataque (5).png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/attack27.png\"}",
-        "name": "attack27",
+        "name": "arma_estilete_ataque (5)",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/attack62.png",
+        "file": "_game-assets/images/arma_estilete_ataque (6).png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/attack28.png\"}",
-        "name": "attack28",
+        "name": "arma_estilete_ataque (6)",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/attack63.png",
+        "file": "_game-assets/images/arma_estilete_ataque (7).png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/attack29.png\"}",
-        "name": "attack29",
+        "name": "arma_estilete_ataque (7)",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/attack64.png",
+        "file": "_game-assets/images/arma_estilete_ataque (8).png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/attack30.png\"}",
-        "name": "attack30",
+        "name": "arma_estilete_ataque (8)",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Pedra3.png",
+        "file": "_game-assets/images/arma_borracha.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "Pedra",
+        "name": "arma_borracha",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Pedra4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Pedra2",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "new/borracha.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "new\\borracha.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/new_borracha7.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "new\\borracha",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/new_borracha8.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/new_borracha2.png\"}",
-        "name": "new\\borracha2",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/new_borracha9.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/new_borracha3.png\"}",
-        "name": "new\\borracha3",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/new_borracha10.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "new\\borracha4",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/new_borracha11.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "new\\borracha5",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/new_borracha12.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "new\\borracha6",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "new/rock.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "new\\rock.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/New image10.png",
+        "file": "_game-assets/images/cobertura-transicao.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "New image3",
+        "name": "cobertura-transicao",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/imagem_rocha.png",
+        "file": "_game-assets/images/defesa_chefe_espada.png",
         "kind": "image",
         "metadata": "",
-        "name": "new\\imagem_rocha.png",
+        "name": "defesa_chefe_espada",
         "smoothed": false,
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
-        "file": "assets/imagem_grampo.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "new\\imagem_grampo.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/estilete.mp3",
+        "file": "_game-assets/sounds/arma_estilete_ataque.mp3",
         "kind": "audio",
         "metadata": "",
-        "name": "sfx\\estilete.mp3",
+        "name": "arma_estilete_ataque.mp3",
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
@@ -1380,10 +420,10 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Transparent Button With White Blue Border_Hovered2.png",
+        "file": "_game-assets/images/botao_marcado.png",
         "kind": "image",
         "metadata": "",
-        "name": "Transparent Button With White Blue Border_Hovered.png",
+        "name": "botao_marcado",
         "smoothed": false,
         "userAdded": false,
         "origin": {
@@ -1393,10 +433,10 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Transparent Button With White Blue Border_Idle2.png",
+        "file": "_game-assets/images/botao_parado.png",
         "kind": "image",
         "metadata": "",
-        "name": "Transparent Button With White Blue Border_Idle.png",
+        "name": "botao_parado",
         "smoothed": false,
         "userAdded": false,
         "origin": {
@@ -1406,10 +446,10 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Transparent Button With White Blue Border_Pressed2.png",
+        "file": "_game-assets/images/botao_clicado.png",
         "kind": "image",
         "metadata": "",
-        "name": "Transparent Button With White Blue Border_Pressed.png",
+        "name": "botao_clicado",
         "smoothed": false,
         "userAdded": false,
         "origin": {
@@ -1418,10 +458,10 @@
         }
       },
       {
-        "file": "assets/Kenney Mini Square2.ttf",
+        "file": "_game-assets/Kenney-Mini-Square.ttf",
         "kind": "font",
         "metadata": "",
-        "name": "Kenney Mini Square.ttf",
+        "name": "Kenney-Mini-Square",
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini Square.ttf",
@@ -1429,47 +469,27 @@
         }
       },
       {
-        "file": "assets/ThaleahFat.ttf",
+        "file": "_game-assets/ThaleahFat.ttf",
         "kind": "font",
         "metadata": "",
-        "name": "ThaleahFat.ttf",
+        "name": "ThaleahFat",
         "userAdded": false
       },
       {
-        "file": "assets/New sound effect2.wav",
+        "file": "_game-assets/sounds/botao_clicado.mp3",
         "kind": "audio",
-        "metadata": "{\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Blip/select 7\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.04,\\\"sustainPunch\\\":0,\\\"decay\\\":0.02,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":400,\\\"frequencySweep\\\":0,\\\"frequencyDeltaSweep\\\":0,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":1,\\\"harmonicsFalloff\\\":0.44,\\\"waveform\\\":\\\"whistle\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":40,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"New sound effect\"}}",
-        "name": "New sound effect",
+        "metadata": "",
+        "name": "botao_clicado.mp3",
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
       },
       {
-        "file": "assets/tear-paper-103161.mp3",
+        "file": "_game-assets/sounds/botao_marcado.mp3",
         "kind": "audio",
         "metadata": "",
-        "name": "tear-paper-103161.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": true
-      },
-      {
-        "file": "assets/tear-paper-103160.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "tear-paper-103160.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": true
-      },
-      {
-        "file": "assets/scissors-cutting-paper-1-101193.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "scissors-cutting-paper-1-101193.mp3",
+        "name": "botao_marcado.mp3",
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
@@ -1477,330 +497,47 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/138180488.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "138180488.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/title_00.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "title_00.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/title_01.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "title_01.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/title_02.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "title_02.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/title_03.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "title_03.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/title_04.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "title_04.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/title_05.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "title_05.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/title_06.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "title_06.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/title_07.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "title_07.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/title_08.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "title_08.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/title_09.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "title_09.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/title_10.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "title_10.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/title_11.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "title_11.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/title_12.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "title_12.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/title_13.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "title_13.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/title_14.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "title_14.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/title_15.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "title_15.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/title_16.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "title_16.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/title_17.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "title_17.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/title_18.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "title_18.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/title_19.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "title_19.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/title_20.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "title_20.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/title_21.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "title_21.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/title_22.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "title_22.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/title_23.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "title_23.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/title_24.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "title_24.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/LightGlow2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "LightGlow.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Particles/c17e2d500015e598624b763f4942b26e3aac96efca094cd20257a61e15b27fcb_LightGlow.png",
-          "name": "LightGlow.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/New image11.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "New image4",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/New image12.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "New image5",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/New image13.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "New image6",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/New image14.png",
+        "file": "_game-assets/images/chao-arena.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/New image7.png\"}",
-        "name": "New image7",
+        "name": "chao-arena",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Norma2D on X Some space backgrounds for a pixel art pack that I.png",
+        "file": "_game-assets/images/fundo-cenario.png",
         "kind": "image",
         "metadata": "",
-        "name": "Norma2D on X Some space backgrounds for a pixel art pack that I.png",
+        "name": "fundo-cenario",
         "smoothed": false,
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
-        "file": "assets/Norma2D on X Some space backgrounds for a pixel art pack that I2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Norma2D on X Some space backgrounds for a pixel art pack that I2.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "file": "assets/hurt_c_08-102842.mp3",
+        "file": "_game-assets/sounds/chefe_recebendo-dano.mp3",
         "kind": "audio",
         "metadata": "",
-        "name": "hurt_c_08-102842.mp3",
+        "name": "chefe_recebendo-dano.mp3",
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
       },
       {
-        "file": "assets/teleport-14639.mp3",
+        "file": "_game-assets/sounds/chefe_arma_ataque_disparo.mp3",
         "kind": "audio",
         "metadata": "",
-        "name": "teleport-14639.mp3",
+        "name": "chefe_arma_ataque_disparo.mp3",
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
       },
       {
-        "file": "assets/mask-grunt-sound-38713.mp3",
+        "file": "_game-assets/sounds/jogador_recebendo-dano.mp3",
         "kind": "audio",
         "metadata": "",
-        "name": "mask-grunt-sound-38713.mp3",
+        "name": "jogador_recebendo-dano.mp3",
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
@@ -1808,792 +545,146 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/PixelTrail2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "PixelTrail.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/PixiJS/ef6aa63d5cdf5ce14f88668e4d55a67a0051bc54e48e592fd3abbfed7e104b79_PixelTrail.png",
-          "name": "PixelTrail.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/new_imagem_grampo8.png",
+        "file": "_game-assets/images/ataque_arma_grampeador.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "new\\imagem_grampo",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/new_imagem_grampo9.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "new\\imagem_grampo2",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/new_imagem_grampo10.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\new_imagem_grampo2.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/new_imagem_grampo11.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "new\\imagem_grampo3",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/new_imagem_grampo12.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "new\\imagem_grampo4",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/new_imagem_grampo13.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "new\\imagem_grampo5",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/new_imagem_grampo14.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "new\\imagem_grampo6",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/new_imagem_grampo15.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "new\\imagem_grampo7",
+        "name": "ataque_arma_grampeador",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/wheel3.png",
+        "file": "_game-assets/images/chefe_arma_base.png",
         "kind": "image",
-        "metadata": "{\"localFilePath\":\"wheel.png\",\"extension\":\".png\"}",
-        "name": "wheel.png",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "chefe_arma_base",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/wheel4.png",
+        "file": "_game-assets/images/chefe_arma_cabeca_ataque (1).png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "wheel",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/wheel5.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "wheel2",
+        "name": "chefe_arma_cabeca_ataque (1)",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/stapler_boss2.png",
+        "file": "_game-assets/images/chefe_arma_cabeca_ataque (2).png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "chefe_arma_cabeca_ataque (2)",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "_game-assets/images/chefe_arma_cabeca_ataque (3).png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "chefe_arma_cabeca_ataque (3)",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "_game-assets/images/chefe_arma_cabeca_ataque (4).png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "chefe_arma_cabeca_ataque (4)",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "_game-assets/images/chefe_arma_cabeca_ataque (5).png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "chefe_arma_cabeca_ataque (5)",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "_game-assets/images/chefe_arma_cabeca_ataque (6).png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "chefe_arma_cabeca_ataque (6)",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "_game-assets/images/chefe_arma_cabeca_ataque (7).png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "chefe_arma_cabeca_ataque (7)",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "_game-assets/images/chefe_arma_cabeca_ataque (8).png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "chefe_arma_cabeca_ataque (8)",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "_game-assets/images/chefe_arma_cabeca_ataque (9).png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "chefe_arma_cabeca_ataque (9)",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "_game-assets/images/chefe_arma_cabeca_idle.png",
         "kind": "image",
         "metadata": "",
-        "name": "stapler_boss2.png",
+        "name": "chefe_arma_cabeca_idle",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/stapler_boss3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "stapler_boss3.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/stapler_boss4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "stapler_boss4.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/stapler_boss5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "stapler_boss5.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/stapler_boss6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "stapler_boss6.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/stapler_boss7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "stapler_boss7.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/stapler_boss8.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "stapler_boss8.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/stapler_boss9.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "stapler_boss9.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/stapler_boss10.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "stapler_boss10.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/stapler_boss1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "stapler_boss1.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Idle5.png",
+        "file": "_game-assets/images/chefe_arma_ataque.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "Idle",
+        "name": "chefe_arma_ataque",
         "smoothed": false,
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
-        "file": "assets/Attack65.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Attack",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Attack66.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Attack2",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Attack67.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Attack3",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Attack68.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Attack4",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Attack69.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Attack5",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Attack70.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Attack6",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Attack71.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Attack7",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Attack72.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Attack8",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Attack73.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Attack9",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Idle6.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Idle2",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Attack74.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Attack10",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Attack75.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Attack11",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Attack76.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Attack12",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Attack77.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Attack13",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Attack78.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Attack14",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Attack79.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Attack15",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Attack80.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Attack16",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Attack81.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Attack17",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Attack82.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Attack18",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/stapler_boss11.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "stapler_boss11.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/stapler_boss12.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "stapler_boss12.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/stapler_boss13.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "stapler_boss13.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/stapler_boss14.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "stapler_boss14.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/stapler_boss15.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "stapler_boss15.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/stapler_boss16.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "stapler_boss16.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/stapler_boss17.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "stapler_boss17.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/stapler_boss18.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "stapler_boss18.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/stapler_boss19.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "stapler_boss19.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Attack83.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Attack19",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Attack84.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Attack20",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Attack85.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Attack21",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Attack86.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Attack22",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Attack87.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Attack23",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Attack88.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Attack24",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Attack89.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Attack25",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Attack90.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Attack26",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Attack91.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Attack27",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/stapler_boss20.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "stapler_boss20.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/stapler_boss21.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "stapler_boss21.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/stapler_boss22.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "stapler_boss22.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/stapler_boss23.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "stapler_boss23.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/stapler_boss24.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "stapler_boss24.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/stapler_boss25.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "stapler_boss25.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/stapler_boss26.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "stapler_boss26.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/stapler_boss27.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "stapler_boss27.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/stapler_boss28.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "stapler_boss28.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/AttackBoss10.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "AttackBoss",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/AttackBoss11.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "AttackBoss2",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/AttackBoss12.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "AttackBoss3",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/AttackBoss13.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "AttackBoss4",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/AttackBoss14.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "AttackBoss5",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/AttackBoss15.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "AttackBoss6",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/AttackBoss16.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "AttackBoss7",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/AttackBoss17.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "AttackBoss8",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/AttackBoss18.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "AttackBoss9",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/AttackBoss19.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\AttackBoss4.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/tachinha.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "new\\tachinha.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/new_tachinha2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "new\\tachinha",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "file": "assets/18506_1464787026.mp3",
+        "file": "_game-assets/sounds/chefe_arma_ataque_acerto-parede.mp3",
         "kind": "audio",
         "metadata": "",
-        "name": "18506_1464787026.mp3",
+        "name": "chefe_arma_ataque_acerto-parede.mp3",
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
       },
       {
-        "file": "assets/enemy_shot.mp3",
+        "file": "_game-assets/sounds/arma_borracha_defesa_ativando.wav",
         "kind": "audio",
         "metadata": "",
-        "name": "enemy_shot.mp3",
+        "name": "arma_borracha_defesa_ativando.wav",
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
       },
       {
-        "file": "assets/shield_activation.wav",
+        "file": "_game-assets/sounds/arma_borracha_defesa_defendendo.mp3",
         "kind": "audio",
         "metadata": "",
-        "name": "shield_activation.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": true
-      },
-      {
-        "file": "assets/shield_activation2.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "shield_activation2.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": true
-      },
-      {
-        "file": "assets/shield-block-shortsword-143940.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "shield-block-shortsword-143940.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": true
-      },
-      {
-        "file": "assets/shield-block-shortsword-143939.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "shield-block-shortsword-143939.mp3",
+        "name": "arma_borracha_defesa_defendendo.mp3",
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
@@ -2601,1013 +692,46 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/NewSprite58.png",
+        "file": "_game-assets/images/chefe_escudo (1).png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite28",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Gas.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Gas.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/PixiJS/04556cffa8fa75a9515382f3ad3d092361a7a339c612344926d372f906e3e7ed_Gas.png",
-          "name": "Gas.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "00.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "00.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/00.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "00",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/002.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "002",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/004.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "004",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/005.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "005",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/006.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "006",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/007.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "007",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/008.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "008",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/009.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "009",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0010.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0010",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0011.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0011",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0012.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0012",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0013.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0013",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0014.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0014",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0015.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0015",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0016.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0016",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0017.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0017",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0018.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0018",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0019.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0019",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0020.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0020",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0021.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0021",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0022.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0022",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0023.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0023",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0024.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0024",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0025.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0025",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0026.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0026",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0027.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0027",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0028.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0028",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0029.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0029",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0030.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0030",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0031.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0031",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0032.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0032",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0033.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0033",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0034.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0034",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0035.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0035",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0036.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0036",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0037.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0037",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0038.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0038",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0039.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0039",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0040.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0040",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0041.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0041",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0042.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0042",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0043.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0043",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0044.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0044",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0045.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0045",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0046.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0046",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0047.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0047",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0048.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0048",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0049.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0049",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0050.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0050",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0051.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0051",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0052.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0052",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0053.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0053",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0054.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0054",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0055.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0055",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0056.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0056",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0057.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0057",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0058.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0058",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0059.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0059",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0060.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0060",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0061.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0061",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0062.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0062",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0063.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0063",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0064.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0064",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0065.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0065",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0066.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0066",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0067.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0067",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0068.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0068",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0069.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0069",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0070.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0070",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0071.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0071",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0072.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0072",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0073.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0073",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0074.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0074",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0075.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0075",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0076.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0076",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0077.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0077",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0078.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0078",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0079.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "0079",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0079.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\0079.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0078.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\0078.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0077.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\0077.png",
+        "name": "chefe_escudo (1)",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/0076.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\0076.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0075.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\0075.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0074.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\0074.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0073.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\0073.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0072.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\0072.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0071.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\0071.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/0070.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\0070.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "_new/boss-escudo1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "_new\\boss-escudo1.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "_new/boss-escudo2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "_new\\boss-escudo2.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "_new/boss-escudo3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "_new\\boss-escudo3.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "_new/boss-escudo4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "_new\\boss-escudo4.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "_new/boss-escudo5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "_new\\boss-escudo5.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/idle7.png",
+        "file": "_game-assets/images/chefe_escudo (2).png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "idle2",
+        "name": "chefe_escudo (2)",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/idle7.png",
+        "file": "_game-assets/images/chefe_escudo (3).png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "idle3",
+        "name": "chefe_escudo (3)",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/idle7.png",
+        "file": "_game-assets/images/chefe_escudo (4).png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "idle4",
+        "name": "chefe_escudo (4)",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/idle7.png",
+        "file": "_game-assets/images/chefe_escudo_ataque.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "idle5",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/attack92.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "attack31",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/idle8.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "idle6",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/idle8.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "idle7",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/idle8.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "idle8",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/idle9.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "idle9",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/shieldboss-idle.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "shieldboss-idle",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/shieldboss-idle2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "shieldboss-idle2",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/shieldboss-idle3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "shieldboss-idle3",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/shieldboss-idle4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "shieldboss-idle4",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/_new_boss-escudo5.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/_new_boss-escudo5.png\"}",
-        "name": "_new\\boss-escudo5",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/_new_boss-escudo6.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "_new\\boss-escudo6",
+        "name": "chefe_escudo_ataque",
         "smoothed": false,
         "userAdded": true
       }
@@ -3617,7 +741,7 @@
   "objects": [
     {
       "assetStoreId": "f0c3d7ae6099e3b9b8beed4e30b555107550b4fb2a5879e984a014b1e06865bf",
-      "name": "Jogar",
+      "name": "Botao_Jogar",
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variables": [],
       "effects": [],
@@ -3641,7 +765,7 @@
           "height": 64,
           "leftMargin": 6,
           "rightMargin": 6,
-          "texture": "Transparent Button With White Blue Border_Hovered.png",
+          "texture": "botao_marcado",
           "tiled": false,
           "topMargin": 10,
           "width": 192
@@ -3651,7 +775,7 @@
           "height": 64,
           "leftMargin": 6,
           "rightMargin": 6,
-          "texture": "Transparent Button With White Blue Border_Idle.png",
+          "texture": "botao_parado",
           "tiled": false,
           "topMargin": 10,
           "width": 192
@@ -3662,7 +786,7 @@
           "smoothed": true,
           "underlined": false,
           "string": "PLAY",
-          "font": "Kenney Mini Square.ttf",
+          "font": "Kenney-Mini-Square",
           "textAlignment": "center",
           "characterSize": 45,
           "color": {
@@ -3685,7 +809,7 @@
             "smoothed": true,
             "underlined": false,
             "text": "PLAY",
-            "font": "Kenney Mini Square.ttf",
+            "font": "Kenney-Mini-Square",
             "textAlignment": "center",
             "characterSize": 45,
             "color": "255;255;255"
@@ -3696,7 +820,7 @@
           "height": 64,
           "leftMargin": 6,
           "rightMargin": 6,
-          "texture": "Transparent Button With White Blue Border_Pressed.png",
+          "texture": "botao_clicado",
           "tiled": false,
           "topMargin": 10,
           "width": 192
@@ -3705,7 +829,7 @@
     },
     {
       "assetStoreId": "f0c3d7ae6099e3b9b8beed4e30b555107550b4fb2a5879e984a014b1e06865bf",
-      "name": "Sair",
+      "name": "Botao_Sair",
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variables": [],
       "effects": [],
@@ -3729,7 +853,7 @@
           "height": 64,
           "leftMargin": 6,
           "rightMargin": 6,
-          "texture": "Transparent Button With White Blue Border_Hovered.png",
+          "texture": "botao_marcado",
           "tiled": false,
           "topMargin": 10,
           "width": 192
@@ -3739,7 +863,7 @@
           "height": 64,
           "leftMargin": 6,
           "rightMargin": 6,
-          "texture": "Transparent Button With White Blue Border_Idle.png",
+          "texture": "botao_parado",
           "tiled": false,
           "topMargin": 10,
           "width": 192
@@ -3750,7 +874,7 @@
           "smoothed": true,
           "underlined": false,
           "string": "QUIT",
-          "font": "Kenney Mini Square.ttf",
+          "font": "Kenney-Mini-Square",
           "textAlignment": "center",
           "characterSize": 45,
           "color": {
@@ -3773,7 +897,7 @@
             "smoothed": true,
             "underlined": false,
             "text": "QUIT",
-            "font": "Kenney Mini Square.ttf",
+            "font": "Kenney-Mini-Square",
             "textAlignment": "center",
             "characterSize": 45,
             "color": "255;255;255"
@@ -3784,7 +908,7 @@
           "height": 64,
           "leftMargin": 6,
           "rightMargin": 6,
-          "texture": "Transparent Button With White Blue Border_Pressed.png",
+          "texture": "botao_clicado",
           "tiled": false,
           "topMargin": 10,
           "width": 192
@@ -3821,7 +945,7 @@
         }
       ],
       "string": "White Sheet Gods",
-      "font": "ThaleahFat.ttf",
+      "font": "ThaleahFat",
       "textAlignment": "center",
       "characterSize": 300,
       "color": {
@@ -3844,7 +968,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "White Sheet Gods",
-        "font": "ThaleahFat.ttf",
+        "font": "ThaleahFat",
         "textAlignment": "center",
         "characterSize": 300,
         "color": "0;0;0"
@@ -3855,10 +979,10 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "Jogar"
+        "objectName": "Botao_Jogar"
       },
       {
-        "objectName": "Sair"
+        "objectName": "Botao_Sair"
       },
       {
         "objectName": "Titulo"

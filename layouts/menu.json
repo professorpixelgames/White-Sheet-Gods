@@ -30,7 +30,7 @@
       "depth": 32,
       "height": 96,
       "layer": "",
-      "name": "Jogar",
+      "name": "Botao_Jogar",
       "persistentUuid": "c4d4ec66-6b48-4bcb-bfc6-56940b7691d7",
       "width": 288,
       "x": 816,
@@ -46,7 +46,7 @@
       "depth": 32,
       "height": 68,
       "layer": "",
-      "name": "Sair",
+      "name": "Botao_Sair",
       "persistentUuid": "c12520e6-bffd-4050-b724-abecaab35058",
       "width": 224,
       "x": 848,
@@ -97,7 +97,7 @@
           },
           "parameters": [
             "",
-            "tear-paper-103160.mp3"
+            "botao_clicado.mp3"
           ]
         },
         {
@@ -106,7 +106,7 @@
           },
           "parameters": [
             "",
-            "scissors-cutting-paper-1-101193.mp3"
+            "botao_marcado.mp3"
           ]
         }
       ]
@@ -125,7 +125,7 @@
                 "value": "PanelSpriteButton::PanelSpriteButton::IsHovered"
               },
               "parameters": [
-                "Jogar",
+                "Botao_Jogar",
                 ""
               ]
             },
@@ -134,7 +134,7 @@
                 "value": "PanelSpriteButton::PanelSpriteButton::IsHovered"
               },
               "parameters": [
-                "Sair",
+                "Botao_Sair",
                 ""
               ]
             }
@@ -154,7 +154,7 @@
           },
           "parameters": [
             "",
-            "scissors-cutting-paper-1-101193.mp3",
+            "botao_marcado.mp3",
             "",
             "",
             ""
@@ -170,7 +170,7 @@
             "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
           },
           "parameters": [
-            "Jogar",
+            "Botao_Jogar",
             ""
           ]
         }
@@ -182,7 +182,7 @@
           },
           "parameters": [
             "",
-            "tear-paper-103161.mp3",
+            "botao_clicado.mp3",
             "",
             "",
             ""
@@ -215,7 +215,7 @@
             "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
           },
           "parameters": [
-            "Sair",
+            "Botao_Sair",
             ""
           ]
         }
