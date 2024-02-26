@@ -729,7 +729,14 @@
       "name": "EquipamentoArma",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "DanoArmaGramp",
+          "type": "number",
+          "value": 5
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -934,6 +941,13 @@
       ],
       "effects": [],
       "behaviors": [
+        {
+          "name": "Flash",
+          "type": "Flash::Flash",
+          "HalfPeriodTime": 0.2,
+          "IsFlashing": false,
+          "FlashDuration": 0
+        },
         {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
@@ -1563,6 +1577,12 @@
         {
           "folded": true,
           "name": "colidiuParede",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "DanoBalaLigado",
           "type": "boolean",
           "value": false
         }
@@ -3156,6 +3176,13 @@
           "BulletLayer": "",
           "RandomizedAngle": 0,
           "BulletSpeedVariance": 0
+        },
+        {
+          "name": "Flash",
+          "type": "Flash::Flash",
+          "HalfPeriodTime": 0.2,
+          "IsFlashing": false,
+          "FlashDuration": 0
         }
       ],
       "animations": [
@@ -4327,7 +4354,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Cenário",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4788,7 +4814,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Parede",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6039,7 +6064,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Equipamento Escudo",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6299,17 +6323,6 @@
                     },
                     {
                       "type": {
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "TiroInimigo",
-                        "BallDamange",
-                        "=",
-                        "TiroInimigo.BallDamange + Jogador.force"
-                      ]
-                    },
-                    {
-                      "type": {
                         "value": "PlaySound"
                       },
                       "parameters": [
@@ -6318,6 +6331,16 @@
                         "",
                         "",
                         "RandomFloatInRange(0.9, 1.1)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "TiroInimigo",
+                        "DanoBalaLigado",
+                        "True"
                       ]
                     }
                   ]
@@ -6825,7 +6848,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Ferindo o Jogador",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7088,7 +7110,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Ferindo os Bosses",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7416,6 +7437,96 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "TiroInimigo",
+                        "Bosses",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "TiroInimigo",
+                        "DanoBalaLigado",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "Flash::Flash::IsFlashing"
+                      },
+                      "parameters": [
+                        "ChefeArmaCabeca",
+                        "Flash",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Flash::Flash::Flash"
+                      },
+                      "parameters": [
+                        "Bosses",
+                        "Flash",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "hurt_c_08-102842.mp3",
+                        "",
+                        "",
+                        "RandomFloatInRange(0.9, 1.1)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "ChefeArmaCabeca",
+                        "life",
+                        "-",
+                        "TiroInimigo.BallDamange"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "CurrentLifeBoss",
+                        "-",
+                        "TiroInimigo.BallDamange"
+                      ]
+                    }
+                  ]
                 }
               ]
             }
@@ -7427,7 +7538,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Chefe Arma",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7437,7 +7547,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Enemy Bullet",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -7719,7 +7828,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Movimento Novo",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -8180,7 +8288,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Ataque Novo",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -8432,6 +8539,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Chefe Escudo",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
