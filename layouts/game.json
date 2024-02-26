@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.2705012603962586,
+    "zoomFactor": 0.2074649961630162,
     "windowMask": false
   },
   "objectsGroups": [
@@ -1583,6 +1583,12 @@
         {
           "folded": true,
           "name": "DanoBalaLigado",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "colidiuEscudo",
           "type": "boolean",
           "value": false
         }
@@ -4008,6 +4014,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Cenário",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4257,7 +4264,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Item Bounce",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4535,6 +4541,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "HUD",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4634,7 +4641,7 @@
                     "value": "Create"
                   },
                   "parameters": [
-                    "ChefeArmaCabeca",
+                    "Chefe_Arma_Cabeca",
                     "Chefe_Arma_Cabeca",
                     "Chefe_Arma_Base.PointX(\"Juncao\")",
                     "Chefe_Arma_Base.PointY(\"Juncao\")",
@@ -5519,7 +5526,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Equipamento Espada",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6003,14 +6009,76 @@
                         "value": "SetObjectVariableAsBoolean"
                       },
                       "parameters": [
-                        "TiroInimigo",
+                        "Chefe_Arma_Ataque",
                         "DanoBalaLigado",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Chefe_Arma_Ataque",
+                        "colidiuEscudo",
                         "True"
                       ]
                     }
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Chefe_Arma_Ataque",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Chefe_Arma_Ataque",
+                    "colidiuEscudo",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "RotateTowardPosition"
+                  },
+                  "parameters": [
+                    "Chefe_Arma_Ataque",
+                    "Chefe_Arma_Cabeca.CenterX()",
+                    "Chefe_Arma_Cabeca.CenterY()",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Chefe_Arma_Ataque",
+                    "colidiuEscudo",
+                    "="
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": []
             }
           ],
           "parameters": []
@@ -6020,7 +6088,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Equipamento Arma",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6513,6 +6580,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Ferindo o Jogador",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7111,7 +7179,7 @@
                         "value": "CollisionNP"
                       },
                       "parameters": [
-                        "TiroInimigo",
+                        "Chefe_Arma_Ataque",
                         "Bosses",
                         "",
                         "",
@@ -7123,7 +7191,7 @@
                         "value": "ObjectVariableAsBoolean"
                       },
                       "parameters": [
-                        "TiroInimigo",
+                        "Chefe_Arma_Ataque",
                         "DanoBalaLigado",
                         "True"
                       ]
@@ -7134,7 +7202,7 @@
                         "value": "Flash::Flash::IsFlashing"
                       },
                       "parameters": [
-                        "ChefeArmaCabeca",
+                        "Chefe_Arma_Cabeca",
                         "Flash",
                         ""
                       ]
@@ -7175,10 +7243,10 @@
                         "value": "ModVarObjet"
                       },
                       "parameters": [
-                        "ChefeArmaCabeca",
+                        "Chefe_Arma_Cabeca",
                         "life",
                         "-",
-                        "TiroInimigo.BallDamange"
+                        "Chefe_Arma_Ataque.BallDamange"
                       ]
                     },
                     {
@@ -7188,7 +7256,7 @@
                       "parameters": [
                         "CurrentLifeBoss",
                         "-",
-                        "TiroInimigo.BallDamange"
+                        "Chefe_Arma_Ataque.BallDamange"
                       ]
                     }
                   ]
@@ -7201,7 +7269,7 @@
                         "value": "CollisionNP"
                       },
                       "parameters": [
-                        "TiroInimigo",
+                        "Chefe_Arma_Ataque",
                         "Bosses",
                         "",
                         "",
@@ -7213,7 +7281,7 @@
                         "value": "ObjectVariableAsBoolean"
                       },
                       "parameters": [
-                        "TiroInimigo",
+                        "Chefe_Arma_Ataque",
                         "DanoBalaLigado",
                         "True"
                       ]
@@ -7224,7 +7292,7 @@
                         "value": "Flash::Flash::IsFlashing"
                       },
                       "parameters": [
-                        "ChefeArmaCabeca",
+                        "Chefe_Arma_Cabeca",
                         "Flash",
                         ""
                       ]
@@ -7254,7 +7322,7 @@
                       },
                       "parameters": [
                         "",
-                        "hurt_c_08-102842.mp3",
+                        "chefe_recebendo-dano.mp3",
                         "",
                         "",
                         "RandomFloatInRange(0.9, 1.1)"
@@ -7265,10 +7333,10 @@
                         "value": "ModVarObjet"
                       },
                       "parameters": [
-                        "ChefeArmaCabeca",
+                        "Chefe_Arma_Cabeca",
                         "life",
                         "-",
-                        "TiroInimigo.BallDamange"
+                        "Chefe_Arma_Ataque.BallDamange"
                       ]
                     },
                     {
@@ -7278,7 +7346,7 @@
                       "parameters": [
                         "CurrentLifeBoss",
                         "-",
-                        "TiroInimigo.BallDamange"
+                        "Chefe_Arma_Ataque.BallDamange"
                       ]
                     }
                   ]
@@ -7397,180 +7465,6 @@
                       "parameters": [
                         "Chefe_Arma_Ataque",
                         ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "disabled": true,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Bounce::Bounce::BounceOff"
-                      },
-                      "parameters": [
-                        "Chefe_Arma_Ataque",
-                        "Bounce",
-                        "ParedeArena",
-                        ""
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": []
-            },
-            {
-              "colorB": 228,
-              "colorG": 176,
-              "colorR": 74,
-              "creationTime": 0,
-              "disabled": true,
-              "folded": true,
-              "name": "Movimento",
-              "source": "",
-              "type": "BuiltinCommonInstructions::Group",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "ObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "Antigo_Chefe_Arma",
-                        "loopMovimentacao",
-                        "True"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SceneInstancesCount"
-                      },
-                      "parameters": [
-                        "",
-                        "Antigo_Chefe_Arma",
-                        ">=",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "Antigo_Chefe_Arma",
-                        "loopMovimentacao",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
-                      },
-                      "parameters": [
-                        "Antigo_Chefe_Arma",
-                        "Tween",
-                        "\"ponto2\"",
-                        "Marcador_Chefe_Arma2.CenterX()",
-                        "\"easeInOutQuad\"",
-                        "1",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Wait"
-                      },
-                      "parameters": [
-                        "5"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
-                      },
-                      "parameters": [
-                        "Antigo_Chefe_Arma",
-                        "Tween",
-                        "\"ponto3\"",
-                        "Marcador_Chefe_Arma3.CenterY()",
-                        "\"easeInOutQuad\"",
-                        "1",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Wait"
-                      },
-                      "parameters": [
-                        "5"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
-                      },
-                      "parameters": [
-                        "Antigo_Chefe_Arma",
-                        "Tween",
-                        "\"ponto4\"",
-                        "Marcador_Chefe_Arma4.CenterX()",
-                        "\"easeInOutQuad\"",
-                        "1",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Wait"
-                      },
-                      "parameters": [
-                        "5"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
-                      },
-                      "parameters": [
-                        "Antigo_Chefe_Arma",
-                        "Tween",
-                        "\"ponto1\"",
-                        "Marcador_Chefe_Arma1.CenterY()",
-                        "\"easeInOutQuad\"",
-                        "1",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Wait"
-                      },
-                      "parameters": [
-                        "5"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "Antigo_Chefe_Arma",
-                        "loopMovimentacao",
-                        "True"
                       ]
                     }
                   ]
@@ -7852,196 +7746,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "disabled": true,
-              "name": "Ataque",
-              "source": "",
-              "type": "BuiltinCommonInstructions::Group",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "DepartScene"
-                      },
-                      "parameters": [
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ResetTimer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"lifetimeEnemyShot\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
-                      },
-                      "parameters": [
-                        "Barra_Chefe",
-                        "=",
-                        "Antigo_Chefe_Arma.life",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "VarObjet"
-                      },
-                      "parameters": [
-                        "Chefe_Arma_Ataque",
-                        "expireTime",
-                        "<",
-                        "0"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "Chefe_Arma_Ataque",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "FireBullet::FireBullet::FireTowardObject"
-                      },
-                      "parameters": [
-                        "Antigo_Chefe_Arma",
-                        "FireBullet",
-                        "Antigo_Chefe_Arma.CenterX()",
-                        "Antigo_Chefe_Arma.CenterY()",
-                        "Chefe_Arma_Ataque",
-                        "Jogador",
-                        "500",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "Chefe_Arma_Ataque",
-                        "activeDamage",
-                        "True"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "Chefe_Arma_Ataque",
-                        "BallDamange",
-                        "=",
-                        "Antigo_Chefe_Arma.Force"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "FireBullet::FireBullet::HasJustFired"
-                      },
-                      "parameters": [
-                        "Antigo_Chefe_Arma",
-                        "FireBullet",
-                        "="
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "chefe_arma_ataque_disparo.mp3",
-                        "",
-                        "",
-                        "RandomFloatInRange(0.9, 1.1)"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CompareTimer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"lifetimeEnemyShot\"",
-                        ">=",
-                        "1"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "Chefe_Arma_Ataque",
-                        "expireTime",
-                        "-",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ResetTimer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"lifetimeEnemyShot\""
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": []
-            },
-            {
-              "colorB": 228,
-              "colorG": 176,
-              "colorR": 74,
-              "creationTime": 0,
               "name": "Ataque Novo",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -8303,6 +8007,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Defesa",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
